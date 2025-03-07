@@ -9,20 +9,1181 @@
   "servers": [
     {
       "id": "LoupyworldV-1.20.1",
-      "name": "Loupyworld V (1.20.1)",
-      "description": "Loupyworld V (running Forge 1.20.1)",
+      "name": "Loupyworld V",
+      "description": "Loupyworld V (Minecraft 1.20.1 Forge)",
       "icon": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/Loupyworld5.png",
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "loupyworld5.servegame.com",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": false,
       "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.3.33",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7400,
+            "MD5": "839b175ba36608b5c7ceab9a0b2e9a0c",
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.3.33/lowcodelanguage-1.20.1-47.3.33.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.3.33",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16624,
+                "MD5": "9db4130e447d40a1f8863e91d0d41dec",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/versions/1.20.1-forge-47.3.33/1.20.1-forge-47.3.33.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.3.33",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118915,
+                "MD5": "fcb6582172f26f11ce7ea08ef9c8b8fd",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.3.33/fmlcore-1.20.1-47.3.33.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.3.33",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16857,
+                "MD5": "57c2a62f0f8db3f9cc49cbd35ad57cc2",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.3.33/javafmllanguage-1.20.1-47.3.33.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.3.33",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 5000,
+                "MD5": "86095764bf31208357579c7703b828a0",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.3.33/mclanguage-1.20.1-47.3.33.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.3.33:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2775293,
+                "MD5": "a7ec1e3a5f89815aac4332df15c85c6f",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecraftforge/forge/1.20.1-47.3.33/forge-1.20.1-47.3.33-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.3.33:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4823596,
+                "MD5": "ab513794c4f2304ffbba022cd86068ba",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecraftforge/forge/1.20.1-47.3.33/forge-1.20.1-47.3.33-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.3.33",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 267079,
+                "MD5": "7f230ef88a1ddd9e42773ab245629ce0",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.3.33/fmlloader-1.20.1-47.3.33.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.3.33",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170519,
+                "MD5": "ac1b32d6f569cedef52d9951a5c9c3fc",
+                "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.3.33/fmlearlydisplay-1.20.1-47.3.33.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "net.mcreator:grapple:1.0.1@jar",
+          "name": "Grapple",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21826,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/(1.20.1)%20grapple-1.0.1.jar",
+            "MD5": "4752b6701b168d65b6ea59d98ba777ba"
+          }
+        },
+        {
+          "id": "com.teamabnormals.allurement.core:allurement:4.0.0@jar",
+          "name": "Allurement",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 637694,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/allurement-1.20.1-4.0.0.jar",
+            "MD5": "5706903bcecd690da35da6468d779e51"
+          }
+        },
+        {
+          "id": "team.creative:ambientsounds:6.1.6@jar",
+          "name": "AmbientSounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 83885823,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/AmbientSounds_FORGE_v6.1.6_mc1.20.1.jar",
+            "MD5": "8a13e5db399335fb9ec1596abd97385c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:amplified_nether:1.2.5@jar",
+          "name": "Amplified Nether",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 97150,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/Amplified_Nether_1.20.x_v1.2.5.jar",
+            "MD5": "1daa6003a22252ee3c7cf6a7ba62d3a3"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "forge.me.thosea:badoptimizations:2.2.1@jar",
+          "name": "BadOptimizations",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 439771,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/BadOptimizations-2.2.1-1.20.1.jar",
+            "MD5": "eae6018cb889b2d14386c6d40dc4e953"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.eerussianguy:betterfoliage:5.0.2@jar",
+          "name": "Better Foliage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 396130,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/betterfoliage-5.0.2.jar",
+            "MD5": "22f5753234b465c44688f9555acb4713"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "io.socol:betterthirdperson:1.9.0@jar",
+          "name": "Better Third Person",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 61525,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionaloff/BetterThirdPerson-Forge-1.20-1.9.0.jar",
+            "MD5": "298625b2f4567069bcfbea3dceba294d"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.teamabnormals.blueprint.core:blueprint:7.1.1@jar",
+          "name": "Blueprint",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1136146,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/blueprint-1.20.1-7.1.1.jar",
+            "MD5": "8173c5deebd5718e68de1a61a83449a7"
+          }
+        },
+        {
+          "id": "tschipp.carryon:carryon:2.1.2.7@jar",
+          "name": "Carry On",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 439457,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/carryon-forge-1.20.1-2.1.2.7.jar",
+            "MD5": "8956b37c2ae11cc5522c8404a262c6b7"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1181413,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+          }
+        },
+        {
+          "id": "com.corosus.coroutil.loader:coroutil:1.20.1-1.3.7@jar",
+          "name": "CoroUtil",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 64187,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/coroutil-forge-1.20.1-1.3.7.jar",
+            "MD5": "6fb9ccbe8c05c1da61c224d1127e9643"
+          }
+        },
+        {
+          "id": "me.talilon.minecraft:crawlondemand:1.20.x-1.0.0@jar",
+          "name": "Crawl on Demand",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17443,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/crawlondemand-1.20.x-1.0.0.jar",
+            "MD5": "a87fad12265b734155e92ab1259a6a34"
+          }
+        },
+        {
+          "id": "com.simibubi:create:0.5.1.j@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15583566,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/create-1.20.1-0.5.1.j.jar",
+            "MD5": "db945b2441efa1a136d3f86126a6f813"
+          }
+        },
+        {
+          "id": "dev.ithundxr.createnumismatics:numismatics:1.0.11+forge-mc1.20.1@jar",
+          "name": "Create: Numismatics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 884667,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/CreateNumismatics-1.0.11+forge-mc1.20.1.jar",
+            "MD5": "dd4cbf8e061d0e215b59910597faed16"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.12.31@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1158550,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/CreativeCore_FORGE_v2.12.31_mc1.20.1.jar",
+            "MD5": "1ba328e0a3dfb34261c234b5f02f8935"
+          }
+        },
+        {
+          "id": "com.seibel:distanthorizons:2.2.1-a@jar",
+          "name": "Distant Horizons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16521385,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/DistantHorizons-2.2.1-a-1.20.1-forge-fabric.jar",
+            "MD5": "54dad6f74516f0cc4c92bd6f652ac8b0"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.pieking1215.dripsounds:waterdripsound:0.4.0@jar",
+          "name": "Drip Sounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55747,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/Drip%20Sounds-0.4.0+1.20.4-Forge.jar",
+            "MD5": "53d459b692bc7436e1547816511d2a63"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320675,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/embeddium-0.3.31+mc1.20.1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.srrapero720:embeddiumplus:1.2.13@jar",
+          "name": "Embeddium++",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 895427,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/embeddiumplus-1.20.1-v1.2.13.jar",
+            "MD5": "e370f41a09f9d1bfd90e89044230d3a8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "team.creative:enhancedvisuals:1.8.2@jar",
+          "name": "EnhancedVisuals",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4726286,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/EnhancedVisuals_FORGE_v1.8.2_mc1.20.1.jar",
+            "MD5": "8df8c9043267068df9f4e52de0116c93"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.7.3@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 77548,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/entityculling-forge-1.7.3-mc1.20.1.jar",
+            "MD5": "34ae0d54004066bac5c13ab2129978b8"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.valkyrienskies.eureka:vs_eureka:1.5.1-beta.3@jar",
+          "name": "VS Eureka Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 501311,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/eureka-1201-1.5.1-beta.3.jar",
+            "MD5": "47fa26554269a74449fc5159501a7cc2"
+          }
+        },
+        {
+          "id": "dev.xylonity:explosiveenhancement:1.1.0@jar",
+          "name": "Explosive Enhancement",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 85868,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/explosiveenhancement-forge-1.20.1-1.1.0-client.jar",
+            "MD5": "4efddb7f44fb0b0512446692304d63a5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "de.cheaterpaul:fallingleaves:2.1.0-beta.1@jar",
+          "name": "Falling Leaves",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 129769,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/Fallingleaves-1.20-2.1.0-beta.1.jar",
+            "MD5": "fe114bbe4c8d1a5d538288a794e3cd6e"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.tr7zw:firstperson:2.4.8@jar",
+          "name": "FirstPerson",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 126470,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/firstperson-forge-2.4.8-mc1.20.1.jar",
+            "MD5": "c1c1281332086f06f3906774f36503ed"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.fzzyhmstrs:fzzy_config:0.6.4+1.20.1+forge@jar",
+          "name": "Fzzy Config",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1913396,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/fzzy_config-0.6.4+1.20.1+forge.jar",
+            "MD5": "62ea430f0267a5351b5bce012fce5c49"
+          }
+        },
+        {
+          "id": "healingbed:healingbed:1.20.1@jar",
+          "name": "Healingbed",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14862,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/Healing+Bed+1.20.1.jar",
+            "MD5": "88fccd9a8f008c6bf9a9e86a44144977"
+          }
+        },
+        {
+          "id": "com.hammy275:immersivemc:1.5.0-beta3@jar",
+          "name": "ImmersiveMC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 624313,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/immersivemc-1.5.0-beta3-1.20.1-forge.jar",
+            "MD5": "6385834374393ef7de58e2f9e2bfd75c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "it.hurts.octostudios:immersiveui:0.3.0@jar",
+          "name": "ImmersiveUI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 401514,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/ImmersiveUI-FORGE-0.3.0.jar",
+            "MD5": "e92dc07b69814d6116a160f4ee3f08d5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.pieking1215:invmove:0.9.0@jar",
+          "name": "InvMove",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 312084,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionaloff/InvMove-0.9.0+1.20.1-Forge.jar",
+            "MD5": "d5ba1f9b6de21d8a00e5fbcf9340c225"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "generated.forgemod:kotlinforforge:4.11.0-all@jar",
+          "name": "Kotlinforforge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7193768,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/kotlinforforge-4.11.0-all.jar",
+            "MD5": "417caa90d17dc86cf7d24b802c2a5c56"
+          }
+        },
+        {
+          "id": "stepsword.mahoutsukai:mahoutsukai:1.20.1-v1.34.78@jar",
+          "name": "Mahou Tsukai",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4420869,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/mahoutsukai-1.20.1-v1.34.78.jar",
+            "MD5": "c0f8d8038217b9b78ec478a478954857"
+          }
+        },
+        {
+          "id": "com.majruszlibrary:majruszlibrary:7.0.8@jar",
+          "name": "Majrusz Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 437340,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/majrusz-library-forge-1.20.1-7.0.8.jar",
+            "MD5": "f41b4aea81b1e3a1538a1beace7f6c7d"
+          }
+        },
+        {
+          "id": "com.majruszsenchantments:majruszsenchantments:1.10.8@jar",
+          "name": "Majrusz's Enchantments",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 156696,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/majruszs-enchantments-forge-1.20.1-1.10.8.jar",
+            "MD5": "15c6c8ab654366a4c2521002509f95cd"
+          }
+        },
+        {
+          "id": "forge.net:mca:7.6.1+1.20.1@jar",
+          "name": "Minecraft Comes Alive",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12740987,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/minecraft-comes-alive-7.6.1+1.20.1-universal.jar",
+            "MD5": "0fddc17c55d59b0c7a36faeeba27c872"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:moonlight:1.20-2.13.70@jar",
+          "name": "Moonlight Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1233032,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/moonlight-1.20-2.13.70-forge.jar",
+            "MD5": "3edca3420c7d2043c59854ff95a637aa"
+          }
+        },
+        {
+          "id": "dev.tr7zw:notenoughanimations:1.9.2@jar",
+          "name": "NotEnoughAnimations",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 455945,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/notenoughanimations-forge-1.9.2-mc1.20.1.jar",
+            "MD5": "315ca93cf31b1307abd9ad99a9a9e09b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "observable:observable:4.4.2@jar",
+          "name": "Observable",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 470536,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/observable-4.4.2.jar",
+            "MD5": "2cfd5a688bfb9574b914e07444071f03"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "it.hurts.octostudios:octolib:0.4.2@jar",
+          "name": "OctoLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 401032,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/OctoLib-FORGE-0.4.2+1.20.1.jar",
+            "MD5": "1d54e1330f1f89a2544eeae005c3a4a6"
+          }
+        },
+        {
+          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2851119,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/oculus-mc1.20.1-1.8.0.jar",
+            "MD5": "1dd891634ac21591b5a692471f112572"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "vazkii.patchouli:patchouli:1.20.1-84.1-FORGE@jar",
+          "name": "Patchouli",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 642711,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/Patchouli-1.20.1-84.1-FORGE.jar",
+            "MD5": "d5154cacf6859582eebd853bd59f5537"
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:1.20.1-1.9.1-beta.1@jar",
+          "name": "Presence Footsteps (Forge)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7080698,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar",
+            "MD5": "e42d774ced61f8c62c58f3111aa5e3f5"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.leclowndu93150:particlerain:1.1.0@jar",
+          "name": "Pretty Rain",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 599372,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/Pretty%20Rain-1.20.1-Forge-1.1.0.jar",
+            "MD5": "8873937944f124161803dfa447c6c176"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.violetmoon.quark.base:quark:4.0-460@jar",
+          "name": "Quark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14818038,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/Quark-4.0-460.jar",
+            "MD5": "91c53aef2d48db703977309aea72c231"
+          }
+        },
+        {
+          "id": "io.github.jamalam360:quickerconnectbutton:1.0.1@jar",
+          "name": "Quicker Connect Button",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 29215,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/Quicker%20Connect%20Button-forge-1.20.1-1.0.1.jar",
+            "MD5": "25884eb56f790d6623edb45ef2e6e7b9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "generated.forgemod:rrls:4.0.6.1+mc1.20.1-forge@jar",
+          "name": "Remove Reloading Screen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 277896,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/rrls-4.0.6.1+mc1.20.1-forge.jar",
+            "MD5": "6ff0f56b3e745f8da8759cda0a70c236"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "toni.sodiumdynamiclights:sodiumdynamiclights:1.0.9@jar",
+          "name": "Sodium Dynamic Lights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 511601,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+            "MD5": "687c18cefa558ca8101ef97914d9ba6b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.1-1.4.8@jar",
+          "name": "Sound Physics Remastered",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 197076,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/sound-physics-remastered-forge-1.20.1-1.4.8.jar",
+            "MD5": "d4681103e45776840799b25a61997e7b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "einstein.subtle_effects:subtle_effects:1.9.0@jar",
+          "name": "Subtle Effects",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1805165,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/SubtleEffects-forge-1.20.1-1.9.0.jar",
+            "MD5": "452f949eb7a1711ffd77ef1e2e4e02c2"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:supplementaries:1.20-3.1.18@jar",
+          "name": "Supplementaries",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14823869,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/supplementaries-1.20-3.1.18.jar",
+            "MD5": "5fea2caf4accf79d270d74822e0376d3"
+          }
+        },
+        {
+          "id": "com.cerbon:talk_balloons:1.1.3@jar",
+          "name": "Talk Balloons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 48630,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/TalkBalloons-Forge-1.20.1-1.1.3.jar",
+            "MD5": "9dddaaf40dc59601f4058596f7c5dd7a"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:3.0.1.7@jar",
+          "name": "TerraBlender",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 107534,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/TerraBlender-forge-1.20.1-3.0.1.7.jar",
+            "MD5": "59a1a66895bb140b94f9c3c26486ce80"
+          }
+        },
+        {
+          "id": "net.thedarkpeasant:togglenametags:1.0.0@jar",
+          "name": "Toggleable Nametags",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12086,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/togglenametags-1.0.0-1.20.1.jar",
+            "MD5": "c67dbe2c2f5e09f64e52d61cdd0ac1aa"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:travelerstitles:1.20-Forge-4.0.2@jar",
+          "name": "Traveler's Titles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 228191,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/TravelersTitles-1.20-Forge-4.0.2.jar",
+            "MD5": "c9052dc79261ec5cd3a243cb031a2164"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "org.valkyrienskies.mod:valkyrienskies:2.3.0-beta.5@jar",
+          "name": "Valkyrien Skies 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13774983,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/valkyrienskies-120-2.3.0-beta.5.jar",
+            "MD5": "edbddf585b74a4c4e505bf8273c69ebe"
+          }
+        },
+        {
+          "id": "com.illusivesoulworks:veinmining:1.5.0+1.20.1@jar",
+          "name": "Vein Mining",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 230264,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/veinmining-forge-1.5.0+1.20.1.jar",
+            "MD5": "d3a03228321cfbf489e7fb366ed99d70"
+          }
+        },
+        {
+          "id": "net.rasanovum.viaromana:via_romana:1.2.4@jar",
+          "name": "Via Romana",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 180447,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/Via_Romana-1.20.1-1.2.4.jar",
+            "MD5": "aaec9119066eb12324c910494c1ba083"
+          }
+        },
+        {
+          "id": "org.vivecraft:vivecraft:1.20.1-1.2.5@jar",
+          "name": "Vivecraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5367155,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/vivecraft-1.20.1-1.2.5-forge.jar",
+            "MD5": "1730df0a7029c2ad071b003d9ad7713d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.1-2.5.28@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7745604,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.5.28.jar",
+            "MD5": "b6aef4e2ec4871dbb051cfc20517a8a0"
+          }
+        },
+        {
+          "id": "net.blf02:vrapi:3.0.12@jar",
+          "name": "Mc-vr-api",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 57593,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/vrapi-3.0.12-1.20.1-forge.jar",
+            "MD5": "bd3934581f3cb23fececd4764ea5b1eb"
+          }
+        },
+        {
+          "id": "com.corosus.watut.loader:watut:1.20.1-1.1.3@jar",
+          "name": "What Are They Up To",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 352474,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/watut-forge-1.20.1-1.1.3.jar",
+            "MD5": "d3014c889b0c54e1a7f049fa2d54787b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.nyfaria:wearablebackpacks:1.1.0@jar",
+          "name": "Wearable Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 360408,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/wearablebackpacks-forge-1.20.1-1.1.0.jar",
+            "MD5": "6133f6b08cce1a03ab59195e4e85131f"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.2+1.20.1-forge@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1111897,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/YetAnotherConfigLib-3.6.2+1.20.1-forge.jar",
+            "MD5": "e8bb7648a2bc6f0108e363f6826f77b8"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.20-Forge-4.0.6@jar",
+          "name": "YUNG's API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 370524,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/YungsApi-1.20-Forge-4.0.6.jar",
+            "MD5": "fe79f43dba8edbb8ede99f4e358e5b0c"
+          }
+        },
+        {
+          "id": "org.violetmoon.zetaimplforge.mod:zeta:1.0-24@jar",
+          "name": "Zeta",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 991472,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/Zeta-1.0-24.jar",
+            "MD5": "5adf9331772be4b4eed0aca79f173ca6"
+          }
+        },
         {
           "id": "allurement-client.toml",
           "name": "allurement-client.toml",

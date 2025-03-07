@@ -2,10 +2,10 @@
   "$schema": "file:///E:/JEUX/Minecraft/HeliosLauncher/Nebula-workspace/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "Loupyworld V (1.20.1)",
-    "description": "Loupyworld V (running Forge 1.20.1)",
-    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
-    "address": "localhost:25565",
+    "name": "Loupyworld V",
+    "description": "Loupyworld V (Minecraft 1.20.1 Forge)",
+    "icon": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/Loupyworld5.png",
+    "address": "loupyworld5.servegame.com",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -13,6 +13,9 @@
     },
     "mainServer": false,
     "autoconnect": false
+  },
+  "forge": {
+    "version": "47.3.33"
   },
   "untrackedFiles": []
 }
