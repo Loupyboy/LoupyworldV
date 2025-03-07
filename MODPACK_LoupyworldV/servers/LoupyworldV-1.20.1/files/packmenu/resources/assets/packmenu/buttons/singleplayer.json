@@ -1,0 +1,9 @@
+{
+	"x": -100,
+	"y": 48,
+	"width": 64,
+	"height": 20,
+	"langKey": "packmenu.singleplayer",
+	"action": "OPEN_GUI",
+	"data": "SINGLEPLAYER"
+}

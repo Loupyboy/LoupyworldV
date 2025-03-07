@@ -1,0 +1,2295 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "LoupyworldV-1.20.1",
+      "name": "Loupyworld V (1.20.1)",
+      "description": "Loupyworld V (running Forge 1.20.1)",
+      "icon": https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/Loupyworld5.png,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "allurement-client.toml",
+          "name": "allurement-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 217,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/allurement-client.toml",
+            "MD5": "045908c7c23ce5de7f57e0da7dcce589",
+            "path": "config/allurement-client.toml"
+          }
+        },
+        {
+          "id": "allurement-common.toml",
+          "name": "allurement-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6074,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/allurement-common.toml",
+            "MD5": "49197c2b528c756aef43f811b5254c69",
+            "path": "config/allurement-common.toml"
+          }
+        },
+        {
+          "id": "ambientsounds-client.json",
+          "name": "ambientsounds-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 4083,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/ambientsounds-client.json",
+            "MD5": "8b9d34e4e54d1e447ca96445d6ee89b6",
+            "path": "config/ambientsounds-client.json"
+          }
+        },
+        {
+          "id": "antique-atlas.toml",
+          "name": "antique-atlas.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2029,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/antique-atlas.toml",
+            "MD5": "fe10af583caeaad1be9eb90ce7f8b2ba",
+            "path": "config/antique-atlas.toml"
+          }
+        },
+        {
+          "id": "badoptimizations.txt",
+          "name": "badoptimizations.txt",
+          "type": "File",
+          "artifact": {
+            "size": 3004,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/badoptimizations.txt",
+            "MD5": "6e52e1aead1cee82706af818e5312d02",
+            "path": "config/badoptimizations.txt"
+          }
+        },
+        {
+          "id": "armorstands.json",
+          "name": "armorstands.json",
+          "type": "File",
+          "artifact": {
+            "size": 1104,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterdeserttemples/forge-1_20/armorstands.json",
+            "MD5": "3c5dd0e7211b7f7eb3571a90bf3e78be",
+            "path": "config/betterdeserttemples/forge-1_20/armorstands.json"
+          }
+        },
+        {
+          "id": "itemframes.json",
+          "name": "itemframes.json",
+          "type": "File",
+          "artifact": {
+            "size": 614,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterdeserttemples/forge-1_20/itemframes.json",
+            "MD5": "73114668a53b885b0c397940582f4eaa",
+            "path": "config/betterdeserttemples/forge-1_20/itemframes.json"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1683,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterdeserttemples/forge-1_20/README.txt",
+            "MD5": "ca46ae3cbbc0d993e6c5f4b78e3abad4",
+            "path": "config/betterdeserttemples/forge-1_20/README.txt"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 722,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterdeserttemples/README.txt",
+            "MD5": "058aefa47551a5e105df5613d6d24ea7",
+            "path": "config/betterdeserttemples/README.txt"
+          }
+        },
+        {
+          "id": "betterdeserttemples-forge-1_20.toml",
+          "name": "betterdeserttemples-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 618,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterdeserttemples-forge-1_20.toml",
+            "MD5": "27016896345c37eb7cde4df36bfa8b23",
+            "path": "config/betterdeserttemples-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "betterdungeons-forge-1_20.toml",
+          "name": "betterdungeons-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3486,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterdungeons-forge-1_20.toml",
+            "MD5": "9855cf19509981af8a96f9dc11eae9da",
+            "path": "config/betterdungeons-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "betterfoliage-client.toml",
+          "name": "betterfoliage-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1003,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterfoliage-client.toml",
+            "MD5": "62111fe500222396cce6a18447689e8d",
+            "path": "config/betterfoliage-client.toml"
+          }
+        },
+        {
+          "id": "itemframes.json",
+          "name": "itemframes.json",
+          "type": "File",
+          "artifact": {
+            "size": 901,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterfortresses/forge-1_20/itemframes.json",
+            "MD5": "17102214469a76335b57379fbfd57fa2",
+            "path": "config/betterfortresses/forge-1_20/itemframes.json"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1339,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterfortresses/forge-1_20/README.txt",
+            "MD5": "77f5c32923f20baf9ee380e7c1c24b1c",
+            "path": "config/betterfortresses/forge-1_20/README.txt"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 871,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterfortresses/README.txt",
+            "MD5": "eceef9412a301d8cac9d2c98b2a2256f",
+            "path": "config/betterfortresses/README.txt"
+          }
+        },
+        {
+          "id": "betterfortresses-forge-1_20.toml",
+          "name": "betterfortresses-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 468,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterfortresses-forge-1_20.toml",
+            "MD5": "7882d065dfd197ea7c6f644236548d53",
+            "path": "config/betterfortresses-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "betterjungletemples-forge-1_20.toml",
+          "name": "betterjungletemples-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 126,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterjungletemples-forge-1_20.toml",
+            "MD5": "1da790b268e12ea41fcec9645eaacb16",
+            "path": "config/betterjungletemples-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "bettermineshafts-forge-1_20.toml",
+          "name": "bettermineshafts-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3773,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/bettermineshafts-forge-1_20.toml",
+            "MD5": "5d8c354b2a62e7a4cb40f52696fcc972",
+            "path": "config/bettermineshafts-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "betteroceanmonuments-forge-1_20.toml",
+          "name": "betteroceanmonuments-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 460,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betteroceanmonuments-forge-1_20.toml",
+            "MD5": "87c9735623f1ee7b4e595151dbe3384a",
+            "path": "config/betteroceanmonuments-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "armorstands.json",
+          "name": "armorstands.json",
+          "type": "File",
+          "artifact": {
+            "size": 1131,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterstrongholds/forge-1_20/armorstands.json",
+            "MD5": "1b456748ae91c6ad831be9c9698d1d62",
+            "path": "config/betterstrongholds/forge-1_20/armorstands.json"
+          }
+        },
+        {
+          "id": "itemframes.json",
+          "name": "itemframes.json",
+          "type": "File",
+          "artifact": {
+            "size": 680,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterstrongholds/forge-1_20/itemframes.json",
+            "MD5": "02e36d61d0ef72b24373dd29eb751916",
+            "path": "config/betterstrongholds/forge-1_20/itemframes.json"
+          }
+        },
+        {
+          "id": "ores.json",
+          "name": "ores.json",
+          "type": "File",
+          "artifact": {
+            "size": 346,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterstrongholds/forge-1_20/ores.json",
+            "MD5": "8e878397be36f21af4dc164e8dcf7dfc",
+            "path": "config/betterstrongholds/forge-1_20/ores.json"
+          }
+        },
+        {
+          "id": "rareblocks.json",
+          "name": "rareblocks.json",
+          "type": "File",
+          "artifact": {
+            "size": 238,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterstrongholds/forge-1_20/rareblocks.json",
+            "MD5": "be9e9b1ff631d20c5ce89b47a6c14ddd",
+            "path": "config/betterstrongholds/forge-1_20/rareblocks.json"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2830,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterstrongholds/forge-1_20/README.txt",
+            "MD5": "38d8610721769459e29aa78954bca2d7",
+            "path": "config/betterstrongholds/forge-1_20/README.txt"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 707,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterstrongholds/README.txt",
+            "MD5": "9c87e3750c4f479deef3c9ae7c3fabb9",
+            "path": "config/betterstrongholds/README.txt"
+          }
+        },
+        {
+          "id": "betterstrongholds-forge-1_20.toml",
+          "name": "betterstrongholds-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 813,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterstrongholds-forge-1_20.toml",
+            "MD5": "318ea1867c399423ae69f7a3c1c0abf8",
+            "path": "config/betterstrongholds-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "betterthirdperson-common.toml",
+          "name": "betterthirdperson-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 687,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterthirdperson-common.toml",
+            "MD5": "80e45f5aa422748f63c9c3c4197d031f",
+            "path": "config/betterthirdperson-common.toml"
+          }
+        },
+        {
+          "id": "betterwitchhuts-forge-1_20.toml",
+          "name": "betterwitchhuts-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 440,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/betterwitchhuts-forge-1_20.toml",
+            "MD5": "5ec17c67ccc3bb9f524bf3a30a03be3f",
+            "path": "config/betterwitchhuts-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "blueprint-client.toml",
+          "name": "blueprint-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 770,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/blueprint-client.toml",
+            "MD5": "274bf9121f5d934bbbb1a93fb65c40df",
+            "path": "config/blueprint-client.toml"
+          }
+        },
+        {
+          "id": "blueprint-common.toml",
+          "name": "blueprint-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 614,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/blueprint-common.toml",
+            "MD5": "96263bdc056fd70b2ce1b1ec0a113c20",
+            "path": "config/blueprint-common.toml"
+          }
+        },
+        {
+          "id": "cardiac.yaml",
+          "name": "cardiac.yaml",
+          "type": "File",
+          "artifact": {
+            "size": 1122,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/cardiac.yaml",
+            "MD5": "495f4f0cf45dc40d20f3219ca1318ee2",
+            "path": "config/cardiac.yaml"
+          }
+        },
+        {
+          "id": "carryon-client.toml",
+          "name": "carryon-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 590,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/carryon-client.toml",
+            "MD5": "0b6ae0f2806ffd1f653c7c8613c409e1",
+            "path": "config/carryon-client.toml"
+          }
+        },
+        {
+          "id": "carryon-common.toml",
+          "name": "carryon-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 7153,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/carryon-common.toml",
+            "MD5": "df7191661a0b382b15fb527969a5cefd",
+            "path": "config/carryon-common.toml"
+          }
+        },
+        {
+          "id": "config.json",
+          "name": "config.json",
+          "type": "File",
+          "artifact": {
+            "size": 146,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/chunky/config.json",
+            "MD5": "9ab54b1a0e1195126370c48b7a7d7b71",
+            "path": "config/chunky/config.json"
+          }
+        },
+        {
+          "id": "reality_marble.properties",
+          "name": "reality_marble.properties",
+          "type": "File",
+          "artifact": {
+            "size": 138,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/chunky/tasks/mahoutsukai/reality_marble.properties",
+            "MD5": "6c5c3bea8a400029d31252a82bdee424",
+            "path": "config/chunky/tasks/mahoutsukai/reality_marble.properties"
+          }
+        },
+        {
+          "id": "overworld.properties",
+          "name": "overworld.properties",
+          "type": "File",
+          "artifact": {
+            "size": 142,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/chunky/tasks/minecraft/overworld.properties",
+            "MD5": "e38f6432556ccc1bdb23d42646afb3a5",
+            "path": "config/chunky/tasks/minecraft/overworld.properties"
+          }
+        },
+        {
+          "id": "collective.json5",
+          "name": "collective.json5",
+          "type": "File",
+          "artifact": {
+            "size": 827,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/collective.json5",
+            "MD5": "c1a6c344217a2164ca0db41f9d286d00",
+            "path": "config/collective.json5"
+          }
+        },
+        {
+          "id": "connector.json",
+          "name": "connector.json",
+          "type": "File",
+          "artifact": {
+            "size": 144,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/connector.json",
+            "MD5": "e625d3c4a748b81b7f8521b27f7d2365",
+            "path": "config/connector.json"
+          }
+        },
+        {
+          "id": "General.toml",
+          "name": "General.toml",
+          "type": "File",
+          "artifact": {
+            "size": 133,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/CoroUtil/General.toml",
+            "MD5": "8f9eed7bc02c6d45d54ea813d5ddf1cc",
+            "path": "config/CoroUtil/General.toml"
+          }
+        },
+        {
+          "id": "create-client.toml",
+          "name": "create-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 5024,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/create-client.toml",
+            "MD5": "34c8e336cdba9a15b9696a96f37d9f29",
+            "path": "config/create-client.toml"
+          }
+        },
+        {
+          "id": "create-common.toml",
+          "name": "create-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 157,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/create-common.toml",
+            "MD5": "7503e1571dd136604d3a78582d1a6cb0",
+            "path": "config/create-common.toml"
+          }
+        },
+        {
+          "id": "cullleaves.json",
+          "name": "cullleaves.json",
+          "type": "File",
+          "artifact": {
+            "size": 43,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/cullleaves.json",
+            "MD5": "d1235f7b530318881d36237d6e0cf684",
+            "path": "config/cullleaves.json"
+          }
+        },
+        {
+          "id": "cupboard.json",
+          "name": "cupboard.json",
+          "type": "File",
+          "artifact": {
+            "size": 1090,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/cupboard.json",
+            "MD5": "7725e2ad17f08b6221f0ecdeda137888",
+            "path": "config/cupboard.json"
+          }
+        },
+        {
+          "id": "darkness.properties",
+          "name": "darkness.properties",
+          "type": "File",
+          "artifact": {
+            "size": 245,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/darkness.properties",
+            "MD5": "2ad83909d32ea89c552763994b812f06",
+            "path": "config/darkness.properties"
+          }
+        },
+        {
+          "id": "despawningeggshatch.json5",
+          "name": "despawningeggshatch.json5",
+          "type": "File",
+          "artifact": {
+            "size": 811,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/despawningeggshatch.json5",
+            "MD5": "d4fb2c51e9b473d1135b345527c310ac",
+            "path": "config/despawningeggshatch.json5"
+          }
+        },
+        {
+          "id": "DistantHorizons.toml",
+          "name": "DistantHorizons.toml",
+          "type": "File",
+          "artifact": {
+            "size": 31206,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/DistantHorizons.toml",
+            "MD5": "74e26f0db0058445da32cb88c73188b4",
+            "path": "config/DistantHorizons.toml"
+          }
+        },
+        {
+          "id": "dungeon_crawl.toml",
+          "name": "dungeon_crawl.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2903,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/dungeon_crawl.toml",
+            "MD5": "905016119c812d006db2eb5c9c1e8866",
+            "path": "config/dungeon_crawl.toml"
+          }
+        },
+        {
+          "id": "dynamicview.json",
+          "name": "dynamicview.json",
+          "type": "File",
+          "artifact": {
+            "size": 1416,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/dynamicview.json",
+            "MD5": "a9afd6b77f858ffe6a6aab28331b32a4",
+            "path": "config/dynamicview.json"
+          }
+        },
+        {
+          "id": "embeddium++.toml",
+          "name": "embeddium++.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6852,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/embeddium++.toml",
+            "MD5": "f09e895f78ffab9ce44f3658755da61e",
+            "path": "config/embeddium++.toml"
+          }
+        },
+        {
+          "id": "embeddium-fingerprint.json",
+          "name": "embeddium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/embeddium-fingerprint.json",
+            "MD5": "6af422cb60c9974a1edf383e03b18906",
+            "path": "config/embeddium-fingerprint.json"
+          }
+        },
+        {
+          "id": "embeddium-mixins.properties",
+          "name": "embeddium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 269,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/embeddium-mixins.properties",
+            "MD5": "a9176524f816153a7967217b53bb75a1",
+            "path": "config/embeddium-mixins.properties"
+          }
+        },
+        {
+          "id": "embeddium-options.json",
+          "name": "embeddium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 852,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/embeddium-options.json",
+            "MD5": "a2237bd5fdeac8dbb0e79b92aec97d58",
+            "path": "config/embeddium-options.json"
+          }
+        },
+        {
+          "id": "enhancedvisuals-client.json",
+          "name": "enhancedvisuals-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 8144,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/enhancedvisuals-client.json",
+            "MD5": "d17de64ff356219c69c8c04bfdbbce19",
+            "path": "config/enhancedvisuals-client.json"
+          }
+        },
+        {
+          "id": "enhancedvisuals.json",
+          "name": "enhancedvisuals.json",
+          "type": "File",
+          "artifact": {
+            "size": 429,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/enhancedvisuals.json",
+            "MD5": "279f032a0748fb301202c6daebc84b83",
+            "path": "config/enhancedvisuals.json"
+          }
+        },
+        {
+          "id": "entityculling.json",
+          "name": "entityculling.json",
+          "type": "File",
+          "artifact": {
+            "size": 1695,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/entityculling.json",
+            "MD5": "8917e1c51d03445e63b5537a3bd33429",
+            "path": "config/entityculling.json"
+          }
+        },
+        {
+          "id": "explosiveenhancement.toml",
+          "name": "explosiveenhancement.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1639,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/explosiveenhancement.toml",
+            "MD5": "a1229c831b387bbc86617dfad00cd11c",
+            "path": "config/explosiveenhancement.toml"
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 290,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/fabric/indigo-renderer.properties",
+            "MD5": "c8644b52c595b76d1e0e6a4ed6bd4796",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "fallingleaves-client.toml",
+          "name": "fallingleaves-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 796,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/fallingleaves-client.toml",
+            "MD5": "f0b44495057005481c0f14a656ae9231",
+            "path": "config/fallingleaves-client.toml"
+          }
+        },
+        {
+          "id": "fastbench.cfg",
+          "name": "fastbench.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 541,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/fastbench.cfg",
+            "MD5": "d6dc7c081d3f61dec2153c3b5d541a06",
+            "path": "config/fastbench.cfg"
+          }
+        },
+        {
+          "id": "fastsuite.cfg",
+          "name": "fastsuite.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 742,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/fastsuite.cfg",
+            "MD5": "7d7c38f1deb6139437aa3e6e14874f61",
+            "path": "config/fastsuite.cfg"
+          }
+        },
+        {
+          "id": "firearrows.json",
+          "name": "firearrows.json",
+          "type": "File",
+          "artifact": {
+            "size": 245,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/firearrows.json",
+            "MD5": "8901ecf324d17729f80d06b14cac7348",
+            "path": "config/firearrows.json"
+          }
+        },
+        {
+          "id": "firstperson.json",
+          "name": "firstperson.json",
+          "type": "File",
+          "artifact": {
+            "size": 573,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/firstperson.json",
+            "MD5": "5d571f4e83f28e4c2212c1f08afa872e",
+            "path": "config/firstperson.json"
+          }
+        },
+        {
+          "id": "flywheel-client.toml",
+          "name": "flywheel-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 274,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/flywheel-client.toml",
+            "MD5": "d773ebab6c56a72ee533f82842304884",
+            "path": "config/flywheel-client.toml"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1147,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/fml.toml",
+            "MD5": "69de99a0b6537f52ae3c9c239d7f0e42",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "config.json",
+          "name": "config.json",
+          "type": "File",
+          "artifact": {
+            "size": 570,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/fog/config.json",
+            "MD5": "482044c99df5459c859a6ef8a779bd92",
+            "path": "config/fog/config.json"
+          }
+        },
+        {
+          "id": "forge-client.toml",
+          "name": "forge-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1627,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/forge-client.toml",
+            "MD5": "0d2415fdfd3cb4ec7ac21704547ba59d",
+            "path": "config/forge-client.toml"
+          }
+        },
+        {
+          "id": "gml-script-mods.toml",
+          "name": "gml-script-mods.toml",
+          "type": "File",
+          "artifact": {
+            "size": 121,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/gml-script-mods.toml",
+            "MD5": "2bfd302a360d40fefcdbaf96eec582a5",
+            "path": "config/gml-script-mods.toml"
+          }
+        },
+        {
+          "id": "grapplemod.toml",
+          "name": "grapplemod.toml",
+          "type": "File",
+          "artifact": {
+            "size": 5251,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/grapplemod.toml",
+            "MD5": "b057aba956314b155126473e257d5245",
+            "path": "config/grapplemod.toml"
+          }
+        },
+        {
+          "id": "healingcampfire.json5",
+          "name": "healingcampfire.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1229,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/healingcampfire.json5",
+            "MD5": "f3becb3cb2cbf326e25710bfb3d4d8c1",
+            "path": "config/healingcampfire.json5"
+          }
+        },
+        {
+          "id": "immersiveui.yaml",
+          "name": "immersiveui.yaml",
+          "type": "File",
+          "artifact": {
+            "size": 1350,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/immersiveui.yaml",
+            "MD5": "5427e0a0b9777530f5469620a4342847",
+            "path": "config/immersiveui.yaml"
+          }
+        },
+        {
+          "id": "immersive_mc-client.json",
+          "name": "immersive_mc-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 1942,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/immersive_mc-client.json",
+            "MD5": "45fdd0b77bf52b29670162739cce5bc3",
+            "path": "config/immersive_mc-client.json"
+          }
+        },
+        {
+          "id": "immersive_mc-server.json",
+          "name": "immersive_mc-server.json",
+          "type": "File",
+          "artifact": {
+            "size": 1184,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/immersive_mc-server.json",
+            "MD5": "bcfed82ca91ece11c27e5ea7594ed698",
+            "path": "config/immersive_mc-server.json"
+          }
+        },
+        {
+          "id": "immersive_portals.json",
+          "name": "immersive_portals.json",
+          "type": "File",
+          "artifact": {
+            "size": 1359,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/immersive_portals.json",
+            "MD5": "5f457bfd0b2c6dac92fc481dc244c7d6",
+            "path": "config/immersive_portals.json"
+          }
+        },
+        {
+          "id": "immersive_weathering-client.toml",
+          "name": "immersive_weathering-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 298,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/immersive_weathering-client.toml",
+            "MD5": "0ccfda2c73ca9d40afa2abbbbcabfd17",
+            "path": "config/immersive_weathering-client.toml"
+          }
+        },
+        {
+          "id": "immersive_weathering-common.toml",
+          "name": "immersive_weathering-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2449,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/immersive_weathering-common.toml",
+            "MD5": "2572118008b7563f0af452ab51a20de4",
+            "path": "config/immersive_weathering-common.toml"
+          }
+        },
+        {
+          "id": "infinitetrading.json5",
+          "name": "infinitetrading.json5",
+          "type": "File",
+          "artifact": {
+            "size": 210,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/infinitetrading.json5",
+            "MD5": "73828fc2a937533c17c4dd7c6c91977b",
+            "path": "config/infinitetrading.json5"
+          }
+        },
+        {
+          "id": "unrecognized.json",
+          "name": "unrecognized.json",
+          "type": "File",
+          "artifact": {
+            "size": 2062,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/invmove/unrecognized.json",
+            "MD5": "79cb648a3b5703a9d1a60304af8c58bc",
+            "path": "config/invmove/unrecognized.json"
+          }
+        },
+        {
+          "id": "vanilla.json",
+          "name": "vanilla.json",
+          "type": "File",
+          "artifact": {
+            "size": 1092,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/invmove/vanilla.json",
+            "MD5": "95587492c4a51a3beaa4b7d8869499fe",
+            "path": "config/invmove/vanilla.json"
+          }
+        },
+        {
+          "id": "invmove.json",
+          "name": "invmove.json",
+          "type": "File",
+          "artifact": {
+            "size": 383,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/invmove.json",
+            "MD5": "e21a3d544d0c323cf3e6c4e596dd73ac",
+            "path": "config/invmove.json"
+          }
+        },
+        {
+          "id": "kiwi-client.yaml",
+          "name": "kiwi-client.yaml",
+          "type": "File",
+          "artifact": {
+            "size": 342,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/kiwi-client.yaml",
+            "MD5": "c8c6640c31b5ac17d05d244f1269e091",
+            "path": "config/kiwi-client.yaml"
+          }
+        },
+        {
+          "id": "kiwi-common.yaml",
+          "name": "kiwi-common.yaml",
+          "type": "File",
+          "artifact": {
+            "size": 73,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/kiwi-common.yaml",
+            "MD5": "02f9cecd61e8ceee086252b8444a9a7d",
+            "path": "config/kiwi-common.yaml"
+          }
+        },
+        {
+          "id": "littleframes-client.json",
+          "name": "littleframes-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 50,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/littleframes-client.json",
+            "MD5": "037524b159706e60501d4d8af2abb38f",
+            "path": "config/littleframes-client.json"
+          }
+        },
+        {
+          "id": "littleframes.json",
+          "name": "littleframes.json",
+          "type": "File",
+          "artifact": {
+            "size": 627,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/littleframes.json",
+            "MD5": "1a9a82f9f8a7ef6b25fd4d1426377f81",
+            "path": "config/littleframes.json"
+          }
+        },
+        {
+          "id": "mahoutsukai-client.toml",
+          "name": "mahoutsukai-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2147,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/mahoutsukai-client.toml",
+            "MD5": "36824cfb742d06ba69092ef630c9fd60",
+            "path": "config/mahoutsukai-client.toml"
+          }
+        },
+        {
+          "id": "majruszlibrary.json",
+          "name": "majruszlibrary.json",
+          "type": "File",
+          "artifact": {
+            "size": 79,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/majruszlibrary.json",
+            "MD5": "ac2c219f9103059e4d2fc2d630705cfb",
+            "path": "config/majruszlibrary.json"
+          }
+        },
+        {
+          "id": "majruszsenchantments.json",
+          "name": "majruszsenchantments.json",
+          "type": "File",
+          "artifact": {
+            "size": 3306,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/majruszsenchantments.json",
+            "MD5": "d91ab0382665b09bc7f68841910cb8f0",
+            "path": "config/majruszsenchantments.json"
+          }
+        },
+        {
+          "id": "map_atlases-client.toml",
+          "name": "map_atlases-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4823,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/map_atlases-client.toml",
+            "MD5": "bd57f68b6d0a6795205f4c6d039a640d",
+            "path": "config/map_atlases-client.toml"
+          }
+        },
+        {
+          "id": "map_atlases-common.toml",
+          "name": "map_atlases-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2118,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/map_atlases-common.toml",
+            "MD5": "a076191cd74ae8cd4de9a7b22734bcc3",
+            "path": "config/map_atlases-common.toml"
+          }
+        },
+        {
+          "id": "mca.json",
+          "name": "mca.json",
+          "type": "File",
+          "artifact": {
+            "size": 7345,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/mca.json",
+            "MD5": "ea23432e5c8308b4011ec7035e77a86b",
+            "path": "config/mca.json"
+          }
+        },
+        {
+          "id": "midnightlib.json",
+          "name": "midnightlib.json",
+          "type": "File",
+          "artifact": {
+            "size": 34,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/midnightlib.json",
+            "MD5": "96bc8c4809d1b71f3fb24d7b83aaa56e",
+            "path": "config/midnightlib.json"
+          }
+        },
+        {
+          "id": "moonlight-client.toml",
+          "name": "moonlight-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1018,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/moonlight-client.toml",
+            "MD5": "1217edc0dc4632434d9ed771ad85626f",
+            "path": "config/moonlight-client.toml"
+          }
+        },
+        {
+          "id": "moonlight-common.toml",
+          "name": "moonlight-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 230,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/moonlight-common.toml",
+            "MD5": "bf1a8b524382ee27f875bf6738b8d3ed",
+            "path": "config/moonlight-common.toml"
+          }
+        },
+        {
+          "id": "spreadsettings.txt",
+          "name": "spreadsettings.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1105,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/netherportalspread/spreadsettings.txt",
+            "MD5": "ec5aaf7c701fdbce66e7cc362161441a",
+            "path": "config/netherportalspread/spreadsettings.txt"
+          }
+        },
+        {
+          "id": "netherportalspread.json5",
+          "name": "netherportalspread.json5",
+          "type": "File",
+          "artifact": {
+            "size": 2366,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/netherportalspread.json5",
+            "MD5": "f66800ea50182d3c8aa7d7f35a5c79d2",
+            "path": "config/netherportalspread.json5"
+          }
+        },
+        {
+          "id": "nohostilesaroundcampfire.json5",
+          "name": "nohostilesaroundcampfire.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1013,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/nohostilesaroundcampfire.json5",
+            "MD5": "2be84c519631453cb307b1945bc42702",
+            "path": "config/nohostilesaroundcampfire.json5"
+          }
+        },
+        {
+          "id": "notenoughanimations.json",
+          "name": "notenoughanimations.json",
+          "type": "File",
+          "artifact": {
+            "size": 2383,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/notenoughanimations.json",
+            "MD5": "3a2647b0446bd6a05657a9b6475a0b1e",
+            "path": "config/notenoughanimations.json"
+          }
+        },
+        {
+          "id": "observable.json",
+          "name": "observable.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/observable.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "config/observable.json"
+          }
+        },
+        {
+          "id": "oculus.properties",
+          "name": "oculus.properties",
+          "type": "File",
+          "artifact": {
+            "size": 286,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/oculus.properties",
+            "MD5": "1e196af62096f4d91a3441212c454b27",
+            "path": "config/oculus.properties"
+          }
+        },
+        {
+          "id": "onlylooking-common.toml",
+          "name": "onlylooking-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 567,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/onlylooking-common.toml",
+            "MD5": "f3e24b391002a813aca910ed14c79482",
+            "path": "config/onlylooking-common.toml"
+          }
+        },
+        {
+          "id": "packmenu.cfg",
+          "name": "packmenu.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 4266,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/packmenu.cfg",
+            "MD5": "611ac4da3b85244acfebffb7862245a9",
+            "path": "config/packmenu.cfg"
+          }
+        },
+        {
+          "id": "patchouli-client.toml",
+          "name": "patchouli-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1091,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/patchouli-client.toml",
+            "MD5": "8abc03f47eb092528e4d5bda3e2ff172",
+            "path": "config/patchouli-client.toml"
+          }
+        },
+        {
+          "id": "physics_animations_client_config.json",
+          "name": "physics_animations_client_config.json",
+          "type": "File",
+          "artifact": {
+            "size": 2704,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/physicsmod/physics_animations_client_config.json",
+            "MD5": "da80c9736151cc129df4049966e21c72",
+            "path": "config/physicsmod/physics_animations_client_config.json"
+          }
+        },
+        {
+          "id": "physics_blocks_client_config.json",
+          "name": "physics_blocks_client_config.json",
+          "type": "File",
+          "artifact": {
+            "size": 187768,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/physicsmod/physics_blocks_client_config.json",
+            "MD5": "ce7ca201fdca6f6ce421fc9cbb86154d",
+            "path": "config/physicsmod/physics_blocks_client_config.json"
+          }
+        },
+        {
+          "id": "physics_client_config.json",
+          "name": "physics_client_config.json",
+          "type": "File",
+          "artifact": {
+            "size": 3917,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/physicsmod/physics_client_config.json",
+            "MD5": "01121ad4005e1594d80d51abb7afdc45",
+            "path": "config/physicsmod/physics_client_config.json"
+          }
+        },
+        {
+          "id": "physics_cloth_config.json",
+          "name": "physics_cloth_config.json",
+          "type": "File",
+          "artifact": {
+            "size": 49,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/physicsmod/physics_cloth_config.json",
+            "MD5": "e0cad14fbab6cb9e3a83a08465339095",
+            "path": "config/physicsmod/physics_cloth_config.json"
+          }
+        },
+        {
+          "id": "physics_mobs_client_config.json",
+          "name": "physics_mobs_client_config.json",
+          "type": "File",
+          "artifact": {
+            "size": 26,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/physicsmod/physics_mobs_client_config.json",
+            "MD5": "cf93170668eb9b0c5e9c2d599165f42e",
+            "path": "config/physicsmod/physics_mobs_client_config.json"
+          }
+        },
+        {
+          "id": "physics_server_config.json",
+          "name": "physics_server_config.json",
+          "type": "File",
+          "artifact": {
+            "size": 94,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/physicsmod/physics_server_config.json",
+            "MD5": "c886d0027a1763497fa43bfc3b796798",
+            "path": "config/physicsmod/physics_server_config.json"
+          }
+        },
+        {
+          "id": "physics_vines_client_config.json",
+          "name": "physics_vines_client_config.json",
+          "type": "File",
+          "artifact": {
+            "size": 14102,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/physicsmod/physics_vines_client_config.json",
+            "MD5": "0c0b0baac1ce67b19186cff173071752",
+            "path": "config/physicsmod/physics_vines_client_config.json"
+          }
+        },
+        {
+          "id": "PlayerShops-Common-1.toml.bak",
+          "name": "PlayerShops-Common-1.toml.bak",
+          "type": "File",
+          "artifact": {
+            "size": 787,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/PlayerShops-Common-1.toml.bak",
+            "MD5": "4327c960246a0f167f314df628c50dcd",
+            "path": "config/PlayerShops-Common-1.toml.bak"
+          }
+        },
+        {
+          "id": "PlayerShops-Common-2.toml.bak",
+          "name": "PlayerShops-Common-2.toml.bak",
+          "type": "File",
+          "artifact": {
+            "size": 787,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/PlayerShops-Common-2.toml.bak",
+            "MD5": "4327c960246a0f167f314df628c50dcd",
+            "path": "config/PlayerShops-Common-2.toml.bak"
+          }
+        },
+        {
+          "id": "PlayerShops-Common.toml",
+          "name": "PlayerShops-Common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 787,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/PlayerShops-Common.toml",
+            "MD5": "4327c960246a0f167f314df628c50dcd",
+            "path": "config/PlayerShops-Common.toml"
+          }
+        },
+        {
+          "id": "ponder-client.toml",
+          "name": "ponder-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 619,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/ponder-client.toml",
+            "MD5": "e923797057f201aaabb470187e768971",
+            "path": "config/ponder-client.toml"
+          }
+        },
+        {
+          "id": "userconfig.json",
+          "name": "userconfig.json",
+          "type": "File",
+          "artifact": {
+            "size": 250,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/presencefootsteps/userconfig.json",
+            "MD5": "bfe0471fd7f0784acdf8e204ac36a4e1",
+            "path": "config/presencefootsteps/userconfig.json"
+          }
+        },
+        {
+          "id": "prettyrain.json5",
+          "name": "prettyrain.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1623,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/prettyrain.json5",
+            "MD5": "fbc167eaf969c1ede3cbc8189b8c88b1",
+            "path": "config/prettyrain.json5"
+          }
+        },
+        {
+          "id": "quark-common.toml",
+          "name": "quark-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 81948,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/quark-common.toml",
+            "MD5": "a01a1bb180b0338ef0689b882a1d3c9d",
+            "path": "config/quark-common.toml"
+          }
+        },
+        {
+          "id": "quickerconnectbutton.properties",
+          "name": "quickerconnectbutton.properties",
+          "type": "File",
+          "artifact": {
+            "size": 94,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/quickerconnectbutton.properties",
+            "MD5": "6390f755d7d1625f22f36a03e9ada84d",
+            "path": "config/quickerconnectbutton.properties"
+          }
+        },
+        {
+          "id": "modded_loot.toml",
+          "name": "modded_loot.toml",
+          "type": "File",
+          "artifact": {
+            "size": 554,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/repurposed_structures-forge/modded_loot.toml",
+            "MD5": "5077e13dec1b1ea0d443fe7a83b6f47f",
+            "path": "config/repurposed_structures-forge/modded_loot.toml"
+          }
+        },
+        {
+          "id": "rrls.toml",
+          "name": "rrls.toml",
+          "type": "File",
+          "artifact": {
+            "size": 901,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/rrls.toml",
+            "MD5": "15a3b9a196909a2d809e76b1a4ef0e54",
+            "path": "config/rrls.toml"
+          }
+        },
+        {
+          "id": "slabstoblocks.json",
+          "name": "slabstoblocks.json",
+          "type": "File",
+          "artifact": {
+            "size": 3551,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/slabstoblocks.json",
+            "MD5": "0e4c695e0600e510c34b025d98637a10",
+            "path": "config/slabstoblocks.json"
+          }
+        },
+        {
+          "id": "snowrealmagic-client.yaml",
+          "name": "snowrealmagic-client.yaml",
+          "type": "File",
+          "artifact": {
+            "size": 96,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/snowrealmagic-client.yaml",
+            "MD5": "207a180bff4ebaefe768036674fe1bb4",
+            "path": "config/snowrealmagic-client.yaml"
+          }
+        },
+        {
+          "id": "snowrealmagic-common.yaml",
+          "name": "snowrealmagic-common.yaml",
+          "type": "File",
+          "artifact": {
+            "size": 744,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/snowrealmagic-common.yaml",
+            "MD5": "aca760e055ae3a56b22db1eb14a6e35e",
+            "path": "config/snowrealmagic-common.yaml"
+          }
+        },
+        {
+          "id": "sodiumdynamiclights-client.toml",
+          "name": "sodiumdynamiclights-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 654,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/sodiumdynamiclights-client.toml",
+            "MD5": "a8fcd1a216272d77755b09bdf532219a",
+            "path": "config/sodiumdynamiclights-client.toml"
+          }
+        },
+        {
+          "id": "allowed_sounds.properties",
+          "name": "allowed_sounds.properties",
+          "type": "File",
+          "artifact": {
+            "size": 70793,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/sound_physics_remastered/allowed_sounds.properties",
+            "MD5": "9f58a9230d2d15b0271e9094a0d698a4",
+            "path": "config/sound_physics_remastered/allowed_sounds.properties"
+          }
+        },
+        {
+          "id": "occlusion.properties",
+          "name": "occlusion.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4831,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/sound_physics_remastered/occlusion.properties",
+            "MD5": "1926a7d77cfb60bd820fe884b513e685",
+            "path": "config/sound_physics_remastered/occlusion.properties"
+          }
+        },
+        {
+          "id": "reflectivity.properties",
+          "name": "reflectivity.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4713,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/sound_physics_remastered/reflectivity.properties",
+            "MD5": "c78ef1dd3e6c804b14d54c03e834d8df",
+            "path": "config/sound_physics_remastered/reflectivity.properties"
+          }
+        },
+        {
+          "id": "soundphysics.properties",
+          "name": "soundphysics.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4994,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/sound_physics_remastered/soundphysics.properties",
+            "MD5": "b90ef17e88812c1cb40d98afef34e0c9",
+            "path": "config/sound_physics_remastered/soundphysics.properties"
+          }
+        },
+        {
+          "id": "spanorama-client.toml",
+          "name": "spanorama-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 394,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/spanorama-client.toml",
+            "MD5": "2011cc0514d5db441d4e1113496e5cbf",
+            "path": "config/spanorama-client.toml"
+          }
+        },
+        {
+          "id": "sparsestructures.json5",
+          "name": "sparsestructures.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1279,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/sparsestructures.json5",
+            "MD5": "a3bab7d66dc51c47daba165554e41e5b",
+            "path": "config/sparsestructures.json5"
+          }
+        },
+        {
+          "id": "biomes.toml",
+          "name": "biomes.toml",
+          "type": "File",
+          "artifact": {
+            "size": 466,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/subtle_effects/biomes.toml",
+            "MD5": "f2ee9cd9e02162eb065ba4ac55c0ffc2",
+            "path": "config/subtle_effects/biomes.toml"
+          }
+        },
+        {
+          "id": "blocks.toml",
+          "name": "blocks.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2519,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/subtle_effects/blocks.toml",
+            "MD5": "ffdcbc55c5c1d6aa86289076f5a4a4bc",
+            "path": "config/subtle_effects/blocks.toml"
+          }
+        },
+        {
+          "id": "entities.toml",
+          "name": "entities.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2232,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/subtle_effects/entities.toml",
+            "MD5": "fb11acfe641207e8daf4f4a1399fff36",
+            "path": "config/subtle_effects/entities.toml"
+          }
+        },
+        {
+          "id": "general.toml",
+          "name": "general.toml",
+          "type": "File",
+          "artifact": {
+            "size": 455,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/subtle_effects/general.toml",
+            "MD5": "124b29f4f9e8e96e79cc77dcc322cf3a",
+            "path": "config/subtle_effects/general.toml"
+          }
+        },
+        {
+          "id": "items.toml",
+          "name": "items.toml",
+          "type": "File",
+          "artifact": {
+            "size": 192,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/subtle_effects/items.toml",
+            "MD5": "e6a717d450e5b6e38d7b908e7ba48652",
+            "path": "config/subtle_effects/items.toml"
+          }
+        },
+        {
+          "id": "supplementaries-client.toml",
+          "name": "supplementaries-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 9130,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/supplementaries-client.toml",
+            "MD5": "c9737403c9bf75f2d986679eebb26841",
+            "path": "config/supplementaries-client.toml"
+          }
+        },
+        {
+          "id": "supplementaries-common.toml",
+          "name": "supplementaries-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 24246,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/supplementaries-common.toml",
+            "MD5": "0b843564fe5f9392b57cf01c93ff8ea3",
+            "path": "config/supplementaries-common.toml"
+          }
+        },
+        {
+          "id": "surveyor.toml",
+          "name": "surveyor.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3132,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/surveyor.toml",
+            "MD5": "9f94ea53d31e880800ae802697bc73f2",
+            "path": "config/surveyor.toml"
+          }
+        },
+        {
+          "id": "tacz-client.toml",
+          "name": "tacz-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2099,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/tacz-client.toml",
+            "MD5": "26c7532f8fd3e0ff7643be64e2fdbdea",
+            "path": "config/tacz-client.toml"
+          }
+        },
+        {
+          "id": "tacz-common.toml",
+          "name": "tacz-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1805,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/tacz-common.toml",
+            "MD5": "8750abcaf3a8fcdf930848774ee73c10",
+            "path": "config/tacz-common.toml"
+          }
+        },
+        {
+          "id": "talk_balloons.json5",
+          "name": "talk_balloons.json5",
+          "type": "File",
+          "artifact": {
+            "size": 228,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/talk_balloons.json5",
+            "MD5": "f37f1536a4023d99c62f66fe7249b4c6",
+            "path": "config/talk_balloons.json5"
+          }
+        },
+        {
+          "id": "tectonic.json",
+          "name": "tectonic.json",
+          "type": "File",
+          "artifact": {
+            "size": 1289,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/tectonic.json",
+            "MD5": "e0bb75ec7766301920eec983ee97d0e5",
+            "path": "config/tectonic.json"
+          }
+        },
+        {
+          "id": "terrablender.toml",
+          "name": "terrablender.toml",
+          "type": "File",
+          "artifact": {
+            "size": 552,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/terrablender.toml",
+            "MD5": "0a79fa039b71bf8d3942f677d3269576",
+            "path": "config/terrablender.toml"
+          }
+        },
+        {
+          "id": "trackwork-client.toml",
+          "name": "trackwork-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 140,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/trackwork-client.toml",
+            "MD5": "2ca86c99bac3f9392a35f32a008c32bd",
+            "path": "config/trackwork-client.toml"
+          }
+        },
+        {
+          "id": "travelerstitles-forge-1_20.toml",
+          "name": "travelerstitles-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 10709,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/travelerstitles-forge-1_20.toml",
+            "MD5": "fa9bff2984cdf2f44f52c40e108cd848",
+            "path": "config/travelerstitles-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "vs_client.schema.json",
+          "name": "vs_client.schema.json",
+          "type": "File",
+          "artifact": {
+            "size": 1297,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/valkyrienskies/schemas/vs_client.schema.json",
+            "MD5": "06fb6f0bb1b629c60fae21cef9c335b4",
+            "path": "config/valkyrienskies/schemas/vs_client.schema.json"
+          }
+        },
+        {
+          "id": "vs_common.schema.json",
+          "name": "vs_common.schema.json",
+          "type": "File",
+          "artifact": {
+            "size": 606,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/valkyrienskies/schemas/vs_common.schema.json",
+            "MD5": "ccfdd0697eda624329c149180660b0a7",
+            "path": "config/valkyrienskies/schemas/vs_common.schema.json"
+          }
+        },
+        {
+          "id": "vs_core_server.schema.json",
+          "name": "vs_core_server.schema.json",
+          "type": "File",
+          "artifact": {
+            "size": 3648,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/valkyrienskies/schemas/vs_core_server.schema.json",
+            "MD5": "fdb1659188c69ea3ac6b2b22afefbc1e",
+            "path": "config/valkyrienskies/schemas/vs_core_server.schema.json"
+          }
+        },
+        {
+          "id": "vs_eureka_client.schema.json",
+          "name": "vs_eureka_client.schema.json",
+          "type": "File",
+          "artifact": {
+            "size": 123,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/valkyrienskies/schemas/vs_eureka_client.schema.json",
+            "MD5": "b3b1a719642d08c0d48a65127c562e10",
+            "path": "config/valkyrienskies/schemas/vs_eureka_client.schema.json"
+          }
+        },
+        {
+          "id": "vs_eureka_server.schema.json",
+          "name": "vs_eureka_server.schema.json",
+          "type": "File",
+          "artifact": {
+            "size": 7791,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/valkyrienskies/schemas/vs_eureka_server.schema.json",
+            "MD5": "9ec64141b2862a457ca1055f42004fee",
+            "path": "config/valkyrienskies/schemas/vs_eureka_server.schema.json"
+          }
+        },
+        {
+          "id": "vs_server.schema.json",
+          "name": "vs_server.schema.json",
+          "type": "File",
+          "artifact": {
+            "size": 2912,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/valkyrienskies/schemas/vs_server.schema.json",
+            "MD5": "4bee9427d3d1f598fe5f4b411809e70d",
+            "path": "config/valkyrienskies/schemas/vs_server.schema.json"
+          }
+        },
+        {
+          "id": "vs_client.json",
+          "name": "vs_client.json",
+          "type": "File",
+          "artifact": {
+            "size": 278,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/valkyrienskies/vs_client.json",
+            "MD5": "3aaea4c26fb1be23353ae975cda20a45",
+            "path": "config/valkyrienskies/vs_client.json"
+          }
+        },
+        {
+          "id": "vs_common.json",
+          "name": "vs_common.json",
+          "type": "File",
+          "artifact": {
+            "size": 107,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/valkyrienskies/vs_common.json",
+            "MD5": "64434245d5f4a1128935952fbfabf062",
+            "path": "config/valkyrienskies/vs_common.json"
+          }
+        },
+        {
+          "id": "vs_core_server.json",
+          "name": "vs_core_server.json",
+          "type": "File",
+          "artifact": {
+            "size": 591,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/valkyrienskies/vs_core_server.json",
+            "MD5": "ce54c147e6bef526798c266a184c64b0",
+            "path": "config/valkyrienskies/vs_core_server.json"
+          }
+        },
+        {
+          "id": "vs_eureka_client.json",
+          "name": "vs_eureka_client.json",
+          "type": "File",
+          "artifact": {
+            "size": 58,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/valkyrienskies/vs_eureka_client.json",
+            "MD5": "1561aeffef113345056d5fb1ff27a59f",
+            "path": "config/valkyrienskies/vs_eureka_client.json"
+          }
+        },
+        {
+          "id": "vs_eureka_server.json",
+          "name": "vs_eureka_server.json",
+          "type": "File",
+          "artifact": {
+            "size": 3591,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/valkyrienskies/vs_eureka_server.json",
+            "MD5": "3e25c930fc6cf43d17216b38f0ebb68a",
+            "path": "config/valkyrienskies/vs_eureka_server.json"
+          }
+        },
+        {
+          "id": "vs_server.json",
+          "name": "vs_server.json",
+          "type": "File",
+          "artifact": {
+            "size": 517,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/valkyrienskies/vs_server.json",
+            "MD5": "1bf3c840b22629d65cf5e6bf08388004",
+            "path": "config/valkyrienskies/vs_server.json"
+          }
+        },
+        {
+          "id": "veinmining-client.toml",
+          "name": "veinmining-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1031,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/veinmining-client.toml",
+            "MD5": "e64e2005ca468d441425a3964892d5e7",
+            "path": "config/veinmining-client.toml"
+          }
+        },
+        {
+          "id": "veinmining-common.toml",
+          "name": "veinmining-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1070,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/veinmining-common.toml",
+            "MD5": "8f5fb2cd5cb1eaeb375c80d7d64065ea",
+            "path": "config/veinmining-common.toml"
+          }
+        },
+        {
+          "id": "veinmining-server.toml",
+          "name": "veinmining-server.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2382,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/veinmining-server.toml",
+            "MD5": "b31bdb6108db33ab1269310fd97eade3",
+            "path": "config/veinmining-server.toml"
+          }
+        },
+        {
+          "id": "via_romana_config.toml",
+          "name": "via_romana_config.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1541,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/via_romana_config.toml",
+            "MD5": "d6b5b7652fff9446cd53036d68522776",
+            "path": "config/via_romana_config.toml"
+          }
+        },
+        {
+          "id": "vibrativevoice.toml",
+          "name": "vibrativevoice.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1730,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/vibrativevoice.toml",
+            "MD5": "f60c83943a90febce1b300ee09619fdf",
+            "path": "config/vibrativevoice.toml"
+          }
+        },
+        {
+          "id": "vivecraft-client-config.json",
+          "name": "vivecraft-client-config.json",
+          "type": "File",
+          "artifact": {
+            "size": 7554,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/vivecraft-client-config.json",
+            "MD5": "a84046545313a2eb46afdb8d82ceec70",
+            "path": "config/vivecraft-client-config.json"
+          }
+        },
+        {
+          "id": "vivecraft-server-config.toml",
+          "name": "vivecraft-server-config.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6452,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/vivecraft-server-config.toml",
+            "MD5": "7b2f20d2add86a94fa911cbd3db456b1",
+            "path": "config/vivecraft-server-config.toml"
+          }
+        },
+        {
+          "id": "translations.properties",
+          "name": "translations.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1182,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/voicechat/translations.properties",
+            "MD5": "4af29bbbf5267fe4298e80c2e6ebca63",
+            "path": "config/voicechat/translations.properties"
+          }
+        },
+        {
+          "id": "username-cache.json",
+          "name": "username-cache.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/voicechat/username-cache.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "config/voicechat/username-cache.json"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4392,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/voicechat/voicechat-client.properties",
+            "MD5": "3a72875834845a2c116f7bb8310d6939",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "voicechat-server.properties",
+          "name": "voicechat-server.properties",
+          "type": "File",
+          "artifact": {
+            "size": 2502,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/voicechat/voicechat-server.properties",
+            "MD5": "e7f0e62a80147a9d203c69cca35b5f3a",
+            "path": "config/voicechat/voicechat-server.properties"
+          }
+        },
+        {
+          "id": "voicechat-volumes.properties",
+          "name": "voicechat-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 37,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/voicechat/voicechat-volumes.properties",
+            "MD5": "fcb38654c898989fdf9b82707c3ee2f5",
+            "path": "config/voicechat/voicechat-volumes.properties"
+          }
+        },
+        {
+          "id": "voicechat-client.toml",
+          "name": "voicechat-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 94,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/voicechat-client.toml",
+            "MD5": "2fb2989fe60bf9a60eb6e8946ce4bb12",
+            "path": "config/voicechat-client.toml"
+          }
+        },
+        {
+          "id": "walljump.json",
+          "name": "walljump.json",
+          "type": "File",
+          "artifact": {
+            "size": 590,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/walljump.json",
+            "MD5": "d04544c4b5a464bfe8c3be1cdf73d03a",
+            "path": "config/walljump.json"
+          }
+        },
+        {
+          "id": "waterdripsound.json",
+          "name": "waterdripsound.json",
+          "type": "File",
+          "artifact": {
+            "size": 118,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/waterdripsound.json",
+            "MD5": "5646fe45283b8e381632d2813c11ab16",
+            "path": "config/waterdripsound.json"
+          }
+        },
+        {
+          "id": "custom_vlc_path.txt",
+          "name": "custom_vlc_path.txt",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/watermedia/custom_vlc_path.txt",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/watermedia/custom_vlc_path.txt"
+          }
+        },
+        {
+          "id": "watut-client.toml",
+          "name": "watut-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2271,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/watut-client.toml",
+            "MD5": "11b1eec1b71ec1aa07f026cf4ffedd3f",
+            "path": "config/watut-client.toml"
+          }
+        },
+        {
+          "id": "watut-common.toml",
+          "name": "watut-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 154,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/watut-common.toml",
+            "MD5": "c90cbbb318b712edc7666fdae93e21fb",
+            "path": "config/watut-common.toml"
+          }
+        },
+        {
+          "id": "watut-item-arm-adjustments.json",
+          "name": "watut-item-arm-adjustments.json",
+          "type": "File",
+          "artifact": {
+            "size": 3355,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/watut-item-arm-adjustments.json",
+            "MD5": "304bbd2cec8a86f1226529489c0d1b0c",
+            "path": "config/watut-item-arm-adjustments.json"
+          }
+        },
+        {
+          "id": "wearablebackpacks-common.toml",
+          "name": "wearablebackpacks-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1083,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/wearablebackpacks-common.toml",
+            "MD5": "a47e2928b4f2611506bc2ca06175fdcb",
+            "path": "config/wearablebackpacks-common.toml"
+          }
+        },
+        {
+          "id": "yacl.json5",
+          "name": "yacl.json5",
+          "type": "File",
+          "artifact": {
+            "size": 35,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/yacl.json5",
+            "MD5": "81d542abb72c4750c7218e0d975e3368",
+            "path": "config/yacl.json5"
+          }
+        },
+        {
+          "id": "YungsCaveBiomes-forge-1_20_1.toml",
+          "name": "YungsCaveBiomes-forge-1_20_1.toml",
+          "type": "File",
+          "artifact": {
+            "size": 339,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/YungsCaveBiomes-forge-1_20_1.toml",
+            "MD5": "81d87f80338c0a4aa0aa1a9c3de85b0e",
+            "path": "config/YungsCaveBiomes-forge-1_20_1.toml"
+          }
+        },
+        {
+          "id": "zeta-common.toml",
+          "name": "zeta-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1912,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/config/zeta-common.toml",
+            "MD5": "38b8f978628d549cee47816b1cf5f409",
+            "path": "config/zeta-common.toml"
+          }
+        },
+        {
+          "id": "DistantHorizons.sqlite",
+          "name": "DistantHorizons.sqlite",
+          "type": "File",
+          "artifact": {
+            "size": 594247680,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/Distant_Horizons_server_data/Loupyworld/overworld/DistantHorizons.sqlite",
+            "MD5": "0e28ed7f3131b3f73e903d6c2753d2cf",
+            "path": "Distant_Horizons_server_data/Loupyworld/overworld/DistantHorizons.sqlite"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 8577,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/options.txt",
+            "MD5": "96455c22e23f75218d55c633f32dedad",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "optionsshaders.txt",
+          "name": "optionsshaders.txt",
+          "type": "File",
+          "artifact": {
+            "size": 364,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/optionsshaders.txt",
+            "MD5": "78952ea3e863ec935fdb3fe14fadd0ec",
+            "path": "optionsshaders.txt"
+          }
+        },
+        {
+          "id": "accessibility.json",
+          "name": "accessibility.json",
+          "type": "File",
+          "artifact": {
+            "size": 243,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/buttons/accessibility.json",
+            "MD5": "abae32b7e4af533fa2bbd5c9ac5b3f41",
+            "path": "packmenu/resources/assets/packmenu/buttons/accessibility.json"
+          }
+        },
+        {
+          "id": "aklizaffiliate.json",
+          "name": "aklizaffiliate.json",
+          "type": "File",
+          "artifact": {
+            "size": 384,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/buttons/aklizaffiliate.json",
+            "MD5": "6e0293767ebf6b2ba2f813fed6d2d30d",
+            "path": "packmenu/resources/assets/packmenu/buttons/aklizaffiliate.json"
+          }
+        },
+        {
+          "id": "language.json",
+          "name": "language.json",
+          "type": "File",
+          "artifact": {
+            "size": 217,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/buttons/language.json",
+            "MD5": "4ba17bf3088ccefa46da66ce562cd8b2",
+            "path": "packmenu/resources/assets/packmenu/buttons/language.json"
+          }
+        },
+        {
+          "id": "mods.json",
+          "name": "mods.json",
+          "type": "File",
+          "artifact": {
+            "size": 129,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/buttons/mods.json",
+            "MD5": "ca49f528059dfd3d3e82dade5000ca06",
+            "path": "packmenu/resources/assets/packmenu/buttons/mods.json"
+          }
+        },
+        {
+          "id": "multiplayer.json",
+          "name": "multiplayer.json",
+          "type": "File",
+          "artifact": {
+            "size": 152,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/buttons/multiplayer.json",
+            "MD5": "b60ef129aac37b55a8f9063b95f4d467",
+            "path": "packmenu/resources/assets/packmenu/buttons/multiplayer.json"
+          }
+        },
+        {
+          "id": "options.json",
+          "name": "options.json",
+          "type": "File",
+          "artifact": {
+            "size": 130,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/buttons/options.json",
+            "MD5": "5f8d2ce5357ead438e0d5a86e82b828b",
+            "path": "packmenu/resources/assets/packmenu/buttons/options.json"
+          }
+        },
+        {
+          "id": "quit.json",
+          "name": "quit.json",
+          "type": "File",
+          "artifact": {
+            "size": 105,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/buttons/quit.json",
+            "MD5": "73778e5f571c5672439fe3aa6d346714",
+            "path": "packmenu/resources/assets/packmenu/buttons/quit.json"
+          }
+        },
+        {
+          "id": "reloadbutton.json",
+          "name": "reloadbutton.json",
+          "type": "File",
+          "artifact": {
+            "size": 216,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/buttons/reloadbutton.json",
+            "MD5": "049eedcb59aecbd441771d935f582eac",
+            "path": "packmenu/resources/assets/packmenu/buttons/reloadbutton.json"
+          }
+        },
+        {
+          "id": "singleplayer.json",
+          "name": "singleplayer.json",
+          "type": "File",
+          "artifact": {
+            "size": 146,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/buttons/singleplayer.json",
+            "MD5": "908b59737ec6ae9cc7c2bc1c72432f82",
+            "path": "packmenu/resources/assets/packmenu/buttons/singleplayer.json"
+          }
+        },
+        {
+          "id": "en_us.json",
+          "name": "en_us.json",
+          "type": "File",
+          "artifact": {
+            "size": 218,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/lang/en_us.json",
+            "MD5": "ca509d3fb4cb0cc38b83c20236512554",
+            "path": "packmenu/resources/assets/packmenu/lang/en_us.json"
+          }
+        },
+        {
+          "id": "supporters.txt",
+          "name": "supporters.txt",
+          "type": "File",
+          "artifact": {
+            "size": 52,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/texts/supporters.txt",
+            "MD5": "c373a7eeaffcc5396989a26484455c8c",
+            "path": "packmenu/resources/assets/packmenu/texts/supporters.txt"
+          }
+        },
+        {
+          "id": "aklizbutton.png",
+          "name": "aklizbutton.png",
+          "type": "File",
+          "artifact": {
+            "size": 3569,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/textures/gui/aklizbutton.png",
+            "MD5": "e203c6a00f7ebad913276f56d13c4f18",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/aklizbutton.png"
+          }
+        },
+        {
+          "id": "background.png",
+          "name": "background.png",
+          "type": "File",
+          "artifact": {
+            "size": 426870,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/textures/gui/background.png",
+            "MD5": "46074f4c771192f38aac7fae3f6cf01e",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/background.png"
+          }
+        },
+        {
+          "id": "logo.png",
+          "name": "logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 4750,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/textures/gui/logo.png",
+            "MD5": "c7d89b523c03f45d60d703fff7cc0036",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/logo.png"
+          }
+        },
+        {
+          "id": "reload.png",
+          "name": "reload.png",
+          "type": "File",
+          "artifact": {
+            "size": 806,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/textures/gui/reload.png",
+            "MD5": "0af7d359b365b61b4b5cc05f9367b2a8",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/reload.png"
+          }
+        },
+        {
+          "id": "widgets.png",
+          "name": "widgets.png",
+          "type": "File",
+          "artifact": {
+            "size": 15444,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/textures/gui/widgets.png",
+            "MD5": "b78f86edd7bea58867cd74675bcd6b73",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/widgets.png"
+          }
+        },
+        {
+          "id": "pack.mcmeta",
+          "name": "pack.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 101,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/pack.mcmeta",
+            "MD5": "7a534d3870a5a9ab4522ecb11bc4ada7",
+            "path": "packmenu/resources/pack.mcmeta"
+          }
+        },
+        {
+          "id": "pack.png",
+          "name": "pack.png",
+          "type": "File",
+          "artifact": {
+            "size": 38219,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/pack.png",
+            "MD5": "3643590fa0eef7120ff0d4a3a53f1417",
+            "path": "packmenu/resources/pack.png"
+          }
+        },
+        {
+          "id": "Connected Texture+ V4.zip",
+          "name": "Connected Texture+ V4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3303634,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/resourcepacks/Connected%20Texture+%20V4.zip",
+            "MD5": "9cc8838e699501b309d36899bb43cb01",
+            "path": "resourcepacks/Connected Texture+ V4.zip"
+          }
+        },
+        {
+          "id": "EnderEyes_1.20.1_v3.zip",
+          "name": "EnderEyes_1.20.1_v3.zip",
+          "type": "File",
+          "artifact": {
+            "size": 169655,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/resourcepacks/EnderEyes_1.20.1_v3.zip",
+            "MD5": "e8b05ba77c2c0543a45ddb85f4e51687",
+            "path": "resourcepacks/EnderEyes_1.20.1_v3.zip"
+          }
+        },
+        {
+          "id": "Everything Animated! 0.3.10.zip",
+          "name": "Everything Animated! 0.3.10.zip",
+          "type": "File",
+          "artifact": {
+            "size": 182234,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/resourcepacks/Everything%20Animated!%200.3.10.zip",
+            "MD5": "5ea4b46118b65feeaf9c08a0c074df22",
+            "path": "resourcepacks/Everything Animated! 0.3.10.zip"
+          }
+        },
+        {
+          "id": "Loupyworld1.12.2-V2.zip",
+          "name": "Loupyworld1.12.2-V2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 21433534,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/resourcepacks/Loupyworld1.12.2-V2.zip",
+            "MD5": "29d743e5cfbadd7cbf771df8936d2d14",
+            "path": "resourcepacks/Loupyworld1.12.2-V2.zip"
+          }
+        },
+        {
+          "id": "Quark Programmer Art.zip",
+          "name": "Quark Programmer Art.zip",
+          "type": "File",
+          "artifact": {
+            "size": 266434,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/resourcepacks/Quark%20Programmer%20Art.zip",
+            "MD5": "372d5ab8040ea8fbf0265bf9163ff206",
+            "path": "resourcepacks/Quark Programmer Art.zip"
+          }
+        },
+        {
+          "id": "[1.20.x]Azuki-Sayama(LiteVersion)[v5].zip",
+          "name": "[1.20.x]Azuki-Sayama(LiteVersion)[v5].zip",
+          "type": "File",
+          "artifact": {
+            "size": 4663750,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/resourcepacks/[1.20.x]Azuki-Sayama(LiteVersion)[v5].zip",
+            "MD5": "1a5a4abcd93263b3ed63fccc7d1ca810",
+            "path": "resourcepacks/[1.20.x]Azuki-Sayama(LiteVersion)[v5].zip"
+          }
+        },
+        {
+          "id": "[1.20.x]Azuki-Sayama[v5].zip",
+          "name": "[1.20.x]Azuki-Sayama[v5].zip",
+          "type": "File",
+          "artifact": {
+            "size": 20180364,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/resourcepacks/[1.20.x]Azuki-Sayama[v5].zip",
+            "MD5": "913e9371cece5cac7d5299f2a284e5bf",
+            "path": "resourcepacks/[1.20.x]Azuki-Sayama[v5].zip"
+          }
+        }
+      ]
+    }
+  ]
+}

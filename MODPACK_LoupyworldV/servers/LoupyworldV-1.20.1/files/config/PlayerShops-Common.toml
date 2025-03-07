@@ -1,0 +1,17 @@
+
+["Common configs for Player Shops"]
+	#whether or not to use the allowance system
+	UseAllowance = false
+	#The id of the item given as an allowance
+	AllowanceItem = "minecraft:raw_gold"
+	#The number of items players get given
+	AllowanceItemCount = 1
+	#The time in ticks between when a player is given there allowance, one day is 24000 ticks, max is one day currently
+	AllowanceTime = 24000
+	#The message displayed to players when getting their allowance
+	AllowanceMessage = "The sun rises and you gain your allowance"
+	#The message displayed to players when they cant get their allowance, probably due to full inventory
+	AllowanceFailMessage = "The sun rises but your inventory was full"
+	#Whether or not Hoppers can take the profit out of shops
+	HoppersExtract = false
+

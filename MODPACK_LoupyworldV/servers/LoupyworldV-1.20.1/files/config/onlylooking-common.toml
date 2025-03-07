@@ -1,0 +1,10 @@
+#Add Entity on Looking AI Blacklist. Use the full name(This config only disabled mob enchant when mob spawn. not mean delete complete, eg: minecraft:zomibe.
+LookingAIMobBlacklist = ["minecraft:phantom", "minecraft:player", "minecraft:ender_dragon"]
+#Add Entity on Mob check Vibration BlackList
+VibrationBlackList = ["minecraft:phantom", "minecraft:warden"]
+#Enable Mob check Vibration(when they find sounds. find sound source.)
+Vibration = true
+#Change Mob check Vibration Range.(It mean you can more encounter enemy)
+#Range: 6 ~ 24
+"Vibration Range" = 16
+

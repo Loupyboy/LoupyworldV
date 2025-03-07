@@ -1,0 +1,35 @@
+{
+  "allowMovement": {
+    "net.minecraft.client.gui.screens.PauseScreen": true,
+    "com.nyfaria.wearablebackpacks.client.screen.BackpackContainerScreen": true,
+    "net.minecraftforge.client.gui.ModListScreen": true,
+    "dev.tr7zw.firstperson.config.ConfigScreenProvider$1": true,
+    "net.minecraft.client.gui.screens.OptionsScreen": true,
+    "org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen": true,
+    "net.minecraft.client.gui.screens.SkinCustomizationScreen": true,
+    "net.irisshaders.iris.gui.screen.ShaderPackScreen": true,
+    "forge.net.mca.client.gui.InteractScreen": true,
+    "forge.net.mca.client.gui.FamilyTreeScreen": true,
+    "net.minecraft.client.gui.screens.controls.ControlsScreen": true,
+    "net.minecraft.client.gui.screens.controls.KeyBindsScreen": true,
+    "net.minecraft.client.gui.screens.social.SocialInteractionsScreen": true,
+    "com.illusivesoulworks.spectrelib.config.client.screen.ModConfigSelectScreen": true,
+    "com.illusivesoulworks.spectrelib.config.client.screen.EditConfigScreen": true,
+    "stepsword.mahoutsukai.render.gui.MahoujinProjectorScreen": true,
+    "org.valkyrienskies.eureka.gui.shiphelm.ShipHelmScreen": true,
+    "forge.net.mca.client.gui.DestinyScreen": true,
+    "pepjebs.mapatlases.client.screen.AtlasOverviewScreen": true
+  },
+  "hideBackground": {
+    "forge.net.mca.client.gui.FamilyTreeScreen": true,
+    "net.minecraft.client.gui.screens.social.SocialInteractionsScreen": true,
+    "pepjebs.mapatlases.client.screen.AtlasOverviewScreen": true,
+    "dev.ithundxr.createnumismatics.content.vendor.VendorScreen": true,
+    "com.simibubi.create.content.schematics.table.SchematicTableScreen": true,
+    "com.simibubi.create.content.schematics.client.SchematicPromptScreen": true,
+    "dev.ithundxr.createnumismatics.content.bank.BankScreen": true,
+    "dev.ithundxr.createnumismatics.content.backend.trust_list.TrustListScreen": true,
+    "dev.ithundxr.createnumismatics.content.bank.blaze_banker.BlazeBankerScreen": true,
+    "forge.net.mca.client.gui.VillagerEditorScreen": true
+  }
+}

@@ -1,0 +1,19 @@
+#Fri Feb 28 01:16:25 CET 2025
+handDepthMul=0.125
+TexMinFilB=0
+oldLighting=default
+TexMagFilN=0
+tweakBlockDamage=false
+cloudShadow=false
+TexMagFilS=0
+shaderPack=
+TexMinFilN=0
+specularMapEnabled=true
+normalMapEnabled=true
+renderResMul=1.0
+oldHandLight=default
+TexMinFilS=0
+shadowResMul=1.0
+shadowClipFrustrum=true
+TexMagFilB=0
+antialiasingLevel=0
