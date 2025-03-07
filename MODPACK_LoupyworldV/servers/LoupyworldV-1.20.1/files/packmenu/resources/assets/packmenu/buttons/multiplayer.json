@@ -5,5 +5,5 @@
 	"height": 20,
 	"langKey": "packmenu.multiplayer",
 	"action": "CONNECT_TO_SERVER",
-	"data": "localhost"
+	"data": "loupyworld5.servegame.com"
 }
