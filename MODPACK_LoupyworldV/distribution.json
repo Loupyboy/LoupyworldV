@@ -1982,17 +1982,6 @@
           }
         },
         {
-          "id": "DistantHorizons.sqlite",
-          "name": "DistantHorizons.sqlite",
-          "type": "File",
-          "artifact": {
-            "size": 594247680,
-            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/Distant_Horizons_server_data/Loupyworld/overworld/DistantHorizons.sqlite",
-            "MD5": "0e28ed7f3131b3f73e903d6c2753d2cf",
-            "path": "Distant_Horizons_server_data/Loupyworld/overworld/DistantHorizons.sqlite"
-          }
-        },
-        {
           "id": "options.txt",
           "name": "options.txt",
           "type": "File",
