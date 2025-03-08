@@ -813,26 +813,6 @@
           }
         },
         {
-          "id": "com.majruszlibrary:majruszlibrary:7.0.8@jar",
-          "name": "Majrusz Library",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 437340,
-            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/majrusz-library-forge-1.20.1-7.0.8.jar",
-            "MD5": "f41b4aea81b1e3a1538a1beace7f6c7d"
-          }
-        },
-        {
-          "id": "com.majruszsenchantments:majruszsenchantments:1.10.8@jar",
-          "name": "Majrusz's Enchantments",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 156696,
-            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/majruszs-enchantments-forge-1.20.1-1.10.8.jar",
-            "MD5": "15c6c8ab654366a4c2521002509f95cd"
-          }
-        },
-        {
           "id": "forge.net:mca:7.6.1+1.20.1@jar",
           "name": "Minecraft Comes Alive",
           "type": "ForgeMod",
