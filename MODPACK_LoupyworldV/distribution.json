@@ -481,11 +481,12 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 47428,
-            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/appleskin-forge-mc1.20.1-2.5.1.jar",
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionaloff/appleskin-forge-mc1.20.1-2.5.1.jar",
             "MD5": "dae63cea9c951dda542a4005ceef3953"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -912,11 +913,12 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 470536,
-            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/observable-4.4.2.jar",
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionaloff/observable-4.4.2.jar",
             "MD5": "2cfd5a688bfb9574b914e07444071f03"
           },
           "required": {
-            "value": false
+            "value": false,
+            "def": false
           }
         },
         {
@@ -986,19 +988,6 @@
           }
         },
         {
-          "id": "com.leclowndu93150:particlerain:1.1.0@jar",
-          "name": "Pretty Rain",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 599372,
-            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/Pretty%20Rain-1.20.1-Forge-1.1.0.jar",
-            "MD5": "8873937944f124161803dfa447c6c176"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
           "id": "org.violetmoon.quark.base:quark:4.0-460@jar",
           "name": "Quark",
           "type": "ForgeMod",
@@ -1052,16 +1041,6 @@
             "size": 41671,
             "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/sd_enchantement_pack-forge_1.0.1.jar",
             "MD5": "9f661f6c2a0cb3798196b2fb28e58ae2"
-          }
-        },
-        {
-          "id": "com.codinglitch:simpleradio:2.4.6.1@jar",
-          "name": "SimpleRadio",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 284128,
-            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/SimpleRadio-forge-1.20.1-2.4.6.1.jar",
-            "MD5": "fdaac552a1ad0d80a251fc1eaadba9e7"
           }
         },
         {
@@ -1233,16 +1212,6 @@
           },
           "required": {
             "value": false
-          }
-        },
-        {
-          "id": "com.nyfaria:wearablebackpacks:1.1.0@jar",
-          "name": "Wearable Backpacks",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 360408,
-            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/wearablebackpacks-forge-1.20.1-1.1.0.jar",
-            "MD5": "6133f6b08cce1a03ab59195e4e85131f"
           }
         },
         {
