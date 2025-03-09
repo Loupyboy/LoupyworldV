@@ -1045,6 +1045,16 @@
           }
         },
         {
+          "id": "net.mcreator.sd_enchantment_pack:sd_enchantement_pack:1.0.0@jar",
+          "name": "ShinyDiabetesEnchantementPack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 41671,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/sd_enchantement_pack-forge_1.0.1.jar",
+            "MD5": "9f661f6c2a0cb3798196b2fb28e58ae2"
+          }
+        },
+        {
           "id": "com.codinglitch:simpleradio:2.4.6.1@jar",
           "name": "SimpleRadio",
           "type": "ForgeMod",
