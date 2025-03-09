@@ -933,6 +933,16 @@
           }
         },
         {
+          "id": "dev.shadowsoffire:placebo:8.6.2@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 285351,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/Placebo-1.20.1-8.6.2.jar",
+            "MD5": "0b7358e758257452184a3a8f82f60abe"
+          }
+        },
+        {
           "id": "eu.ha3:presencefootsteps:1.20.1-1.9.1-beta.1@jar",
           "name": "Presence Footsteps (Forge)",
           "type": "ForgeMod",
