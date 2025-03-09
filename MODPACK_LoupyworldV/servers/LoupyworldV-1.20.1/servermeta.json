@@ -1,7 +1,7 @@
 {
   "$schema": "file:///E:/JEUX/Minecraft/HeliosLauncher/Nebula-workspace/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Loupyworld V",
     "description": "Loupyworld V (Minecraft 1.20.1 Forge)",
     "icon": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/Loupyworld5.png",

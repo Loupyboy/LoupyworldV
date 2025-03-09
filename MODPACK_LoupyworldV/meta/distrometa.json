@@ -1,7 +1,7 @@
 {
   "$schema": "file:///E:/JEUX/Minecraft/HeliosLauncher/Nebula-workspace/schemas/DistroMetaSchema.schema.json",
   "meta": {
-    "rss": "<LINK TO RSS FEED>",
+    "rss": "https://static.blog4ever.com/2012/03/668659/rss_articles.xml",
     "discord": {
       "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
