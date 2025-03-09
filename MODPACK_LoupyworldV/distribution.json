@@ -625,6 +625,16 @@
           }
         },
         {
+          "id": "net.mcreator.egghunterenchantment:egg_hunter_enchantment:1.0.0@jar",
+          "name": "Egg Hunter Enchantment",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10337,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/egg_hunter_enchantment-1.0.0.jar",
+            "MD5": "5743c4433c12196eb32d684543c87576"
+          }
+        },
+        {
           "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
           "name": "Embeddium",
           "type": "ForgeMod",
@@ -648,6 +658,16 @@
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "net.mcreator.enchantsoftime:enchants_of_time:1.0.0@jar",
+          "name": "Enchantments Of All Time",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 608456,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/enchants_of_time-1.0.2-forge-1.20.1.jar",
+            "MD5": "ee651473a74236909ff77df218138366"
           }
         },
         {
@@ -821,6 +841,16 @@
           "required": {
             "value": false,
             "def": false
+          }
+        },
+        {
+          "id": "com.kettle:jlme:1.4.12@jar",
+          "name": "Just a lot more enchantments",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 186829,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/jlme-1.20.1forge-ver1.2.8.jar",
+            "MD5": "a7ac20d7f4051f0e5520d0825464c3a9"
           }
         },
         {
@@ -1012,6 +1042,16 @@
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "com.codinglitch:simpleradio:2.4.6.1@jar",
+          "name": "SimpleRadio",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 284128,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/SimpleRadio-forge-1.20.1-2.4.6.1.jar",
+            "MD5": "fdaac552a1ad0d80a251fc1eaadba9e7"
           }
         },
         {
