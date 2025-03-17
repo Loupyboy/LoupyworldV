@@ -12,7 +12,7 @@
       "name": "Loupyworld V",
       "description": "Loupyworld V (Minecraft 1.20.1 Forge)",
       "icon": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/Loupyworld5.png",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "address": "loupyworld5.servegame.com",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -600,6 +600,19 @@
           }
         },
         {
+          "id": "dicemc.money:dicemcmm:1.20.1-0.0.1@jar",
+          "name": "Money and Sign Shops",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 50324,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/DiceMC%20Money-1.20.1-0.0.1.jar",
+            "MD5": "b5f36e57d067b53ae036d6be66708870"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "com.seibel:distanthorizons:2.2.1-a@jar",
           "name": "Distant Horizons",
           "type": "ForgeMod",
@@ -785,6 +798,19 @@
           }
         },
         {
+          "id": "io.github.flemmli97:flan:1.20.1-1.11.6@jar",
+          "name": "Flan",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 870830,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/flan-1.20.1-1.11.6-forge.jar",
+            "MD5": "6d59ac84655121fc13ec91d00e55bd96"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "me.fzzyhmstrs:fzzy_config:0.6.4+1.20.1+forge@jar",
           "name": "Fzzy Config",
           "type": "ForgeMod",
@@ -895,6 +921,30 @@
           }
         },
         {
+          "id": "dev.imb11.loader:mru:1.0.4+1.20.1+forge@jar",
+          "name": "Mineblock's Repeated Utilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 287393,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionaloff/MRU-1.0.4+1.20.1+forge.jar",
+            "MD5": "4485788a466877a0ddd42d3df84ea913"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "com.dannbrown:musicbox:1.0.1@jar",
+          "name": "Music Box",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 332797,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/musicbox-1.0.1-all.jar",
+            "MD5": "fd552bd3da8fd66bb5f4f66c1cea439e"
+          }
+        },
+        {
           "id": "dev.tr7zw:notenoughanimations:1.9.2@jar",
           "name": "NotEnoughAnimations",
           "type": "ForgeMod",
@@ -939,6 +989,19 @@
             "size": 2851119,
             "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/oculus-mc1.20.1-1.8.0.jar",
             "MD5": "1dd891634ac21591b5a692471f112572"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "lain.mods.skins.init:offlineskins:1.20.1-v1@jar",
+          "name": "OfflineSkins",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 93967,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionalon/offlineskins-1.20.1-v1.jar",
+            "MD5": "501ccc22a90765a4e7665f517c9db545"
           },
           "required": {
             "value": false
@@ -1067,6 +1130,20 @@
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "dev.imb11.sounds.loaders:sounds:2.2.1+1.20.1+forge@jar",
+          "name": "Sounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10974911,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/optionaloff/Sounds-2.2.1+1.20.1+forge.jar",
+            "MD5": "ea8427a4988c1f5ad6b5ed7a38b8224d"
+          },
+          "required": {
+            "value": false,
+            "def": false
           }
         },
         {
@@ -1267,6 +1344,17 @@
           }
         },
         {
+          "id": "en_us.json",
+          "name": "en_us.json",
+          "type": "File",
+          "artifact": {
+            "size": 1573,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/dicemcmm/lang/en_us.json",
+            "MD5": "493af2afec575fe702fd2aa7488f2394",
+            "path": "packmenu/resources/assets/dicemcmm/lang/en_us.json"
+          }
+        },
+        {
           "id": "accessibility.json",
           "name": "accessibility.json",
           "type": "File",
@@ -1377,6 +1465,39 @@
           }
         },
         {
+          "id": "credits.txt",
+          "name": "credits.txt",
+          "type": "File",
+          "artifact": {
+            "size": 368,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/texts/credits.txt",
+            "MD5": "5c9763909db896d325e33856a7564472",
+            "path": "packmenu/resources/assets/packmenu/texts/credits.txt"
+          }
+        },
+        {
+          "id": "end.txt",
+          "name": "end.txt",
+          "type": "File",
+          "artifact": {
+            "size": 8762,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/texts/end.txt",
+            "MD5": "ee04f1261a4d3490532542f2a3c0e17e",
+            "path": "packmenu/resources/assets/packmenu/texts/end.txt"
+          }
+        },
+        {
+          "id": "splashes.txt",
+          "name": "splashes.txt",
+          "type": "File",
+          "artifact": {
+            "size": 69,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/texts/splashes.txt",
+            "MD5": "81d4c26305bc0f68de8fa323a822fe16",
+            "path": "packmenu/resources/assets/packmenu/texts/splashes.txt"
+          }
+        },
+        {
           "id": "supporters.txt",
           "name": "supporters.txt",
           "type": "File",
@@ -1385,6 +1506,17 @@
             "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/texts/supporters.txt",
             "MD5": "c373a7eeaffcc5396989a26484455c8c",
             "path": "packmenu/resources/assets/packmenu/texts/supporters.txt"
+          }
+        },
+        {
+          "id": "iron_golem.png",
+          "name": "iron_golem.png",
+          "type": "File",
+          "artifact": {
+            "size": 5261,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/textures/entity/iron_golem.png",
+            "MD5": "60c181f13730dba72c7d970d5fd19637",
+            "path": "packmenu/resources/assets/packmenu/textures/entity/iron_golem.png"
           }
         },
         {
@@ -1432,6 +1564,105 @@
           }
         },
         {
+          "id": "panorama_0.png",
+          "name": "panorama_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 617639,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/textures/gui/title/background/panorama_0.png",
+            "MD5": "547cb919686b37ad83fb6fcc4d3663fe",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/title/background/panorama_0.png"
+          }
+        },
+        {
+          "id": "panorama_1.png",
+          "name": "panorama_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 682699,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/textures/gui/title/background/panorama_1.png",
+            "MD5": "cba45d2672f2f2a2ba32b499f475ed27",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/title/background/panorama_1.png"
+          }
+        },
+        {
+          "id": "panorama_2.png",
+          "name": "panorama_2.png",
+          "type": "File",
+          "artifact": {
+            "size": 637077,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/textures/gui/title/background/panorama_2.png",
+            "MD5": "6b2befa4fa87bf205f40b58283b08893",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/title/background/panorama_2.png"
+          }
+        },
+        {
+          "id": "panorama_3.png",
+          "name": "panorama_3.png",
+          "type": "File",
+          "artifact": {
+            "size": 539360,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/textures/gui/title/background/panorama_3.png",
+            "MD5": "632e88024164d15829baf8d3b19f882a",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/title/background/panorama_3.png"
+          }
+        },
+        {
+          "id": "panorama_4.png",
+          "name": "panorama_4.png",
+          "type": "File",
+          "artifact": {
+            "size": 352970,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/textures/gui/title/background/panorama_4.png",
+            "MD5": "9388cbaf0715a84c9938a4458ef0f506",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/title/background/panorama_4.png"
+          }
+        },
+        {
+          "id": "panorama_5.png",
+          "name": "panorama_5.png",
+          "type": "File",
+          "artifact": {
+            "size": 702091,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/textures/gui/title/background/panorama_5.png",
+            "MD5": "188a5e22fe08cb9f26fa2f4a7b4f0f78",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/title/background/panorama_5.png"
+          }
+        },
+        {
+          "id": "edition.png",
+          "name": "edition.png",
+          "type": "File",
+          "artifact": {
+            "size": 3909,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/textures/gui/title/edition.png",
+            "MD5": "31dcdb355801c6c4638257fcae41cd03",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/title/edition.png"
+          }
+        },
+        {
+          "id": "minecraft.png",
+          "name": "minecraft.png",
+          "type": "File",
+          "artifact": {
+            "size": 102075,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/textures/gui/title/minecraft.png",
+            "MD5": "abb39dec19bb042cb962cdfe59e1d92a",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/title/minecraft.png"
+          }
+        },
+        {
+          "id": "mojang.png",
+          "name": "mojang.png",
+          "type": "File",
+          "artifact": {
+            "size": 16492,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/assets/packmenu/textures/gui/title/mojang.png",
+            "MD5": "a86e8bf4183fbc3709ee5f6cab6e51d1",
+            "path": "packmenu/resources/assets/packmenu/textures/gui/title/mojang.png"
+          }
+        },
+        {
           "id": "widgets.png",
           "name": "widgets.png",
           "type": "File",
@@ -1447,9 +1678,9 @@
           "name": "pack.mcmeta",
           "type": "File",
           "artifact": {
-            "size": 101,
+            "size": 112,
             "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/packmenu/resources/pack.mcmeta",
-            "MD5": "7a534d3870a5a9ab4522ecb11bc4ada7",
+            "MD5": "1c82f392a6738f1d60d9903766485b08",
             "path": "packmenu/resources/pack.mcmeta"
           }
         },
@@ -1524,9 +1755,9 @@
           "name": "Loupyworld1.12.2-V2.zip",
           "type": "File",
           "artifact": {
-            "size": 21433534,
+            "size": 21433358,
             "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/resourcepacks/Loupyworld1.12.2-V2.zip",
-            "MD5": "29d743e5cfbadd7cbf771df8936d2d14",
+            "MD5": "9778efed7149603020bd47d2c6209f17",
             "path": "resourcepacks/Loupyworld1.12.2-V2.zip"
           }
         },
@@ -1561,6 +1792,17 @@
             "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/resourcepacks/[1.20.x]Azuki-Sayama[v5].zip",
             "MD5": "913e9371cece5cac7d5299f2a284e5bf",
             "path": "resourcepacks/[1.20.x]Azuki-Sayama[v5].zip"
+          }
+        },
+        {
+          "id": "§lcolourful containers§8.zip",
+          "name": "§lcolourful containers§8.zip",
+          "type": "File",
+          "artifact": {
+            "size": 732767,
+            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/files/resourcepacks/%C2%A7lcolourful%20containers%C2%A78.zip",
+            "MD5": "15af649f9a215415403a90a18bc24789",
+            "path": "resourcepacks/§lcolourful containers§8.zip"
           }
         },
         {
