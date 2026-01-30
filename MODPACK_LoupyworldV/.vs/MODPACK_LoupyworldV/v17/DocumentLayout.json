@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Loupyboy\\GitHub\\LoupyworldV\\MODPACK_LoupyworldV\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Loupyboy\\GitHub\\LoupyworldV\\MODPACK_LoupyworldV\\distribution.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:distribution.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Loupyboy\\GitHub\\LoupyworldV\\MODPACK_LoupyworldV\\servers\\LoupyworldV-1.20.1\\servermeta.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:servers\\LoupyworldV-1.20.1\\servermeta.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "servermeta.json",
+              "DocumentMoniker": "E:\\Loupyboy\\GitHub\\LoupyworldV\\MODPACK_LoupyworldV\\servers\\LoupyworldV-1.20.1\\servermeta.json",
+              "RelativeDocumentMoniker": "servers\\LoupyworldV-1.20.1\\servermeta.json",
+              "ToolTip": "E:\\Loupyboy\\GitHub\\LoupyworldV\\MODPACK_LoupyworldV\\servers\\LoupyworldV-1.20.1\\servermeta.json",
+              "RelativeToolTip": "servers\\LoupyworldV-1.20.1\\servermeta.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-30T22:38:15.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "distribution.json",
+              "DocumentMoniker": "E:\\Loupyboy\\GitHub\\LoupyworldV\\MODPACK_LoupyworldV\\distribution.json",
+              "RelativeDocumentMoniker": "distribution.json",
+              "ToolTip": "E:\\Loupyboy\\GitHub\\LoupyworldV\\MODPACK_LoupyworldV\\distribution.json",
+              "RelativeToolTip": "distribution.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-30T22:37:32.788Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
