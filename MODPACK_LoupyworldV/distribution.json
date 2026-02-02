@@ -759,16 +759,6 @@
           }
         },
         {
-          "id": "org.valkyrienskies.eureka:vs_eureka:1.5.1-beta.3@jar",
-          "name": "VS Eureka Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 501311,
-            "url": "https://loupyboy.github.io/LoupyworldV/MODPACK_LoupyworldV/servers/LoupyworldV-1.20.1/forgemods/required/eureka-1201-1.5.1-beta.3.jar",
-            "MD5": "47fa26554269a74449fc5159501a7cc2"
-          }
-        },
-        {
           "id": "dev.xylonity:explosiveenhancement:1.1.0@jar",
           "name": "Explosive Enhancement",
           "type": "ForgeMod",
